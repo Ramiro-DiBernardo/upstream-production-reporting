@@ -1,0 +1,6 @@
+/// Folder that contains the mart CSVs (with trailing backslash). Change it to where you cloned the repo.
+expression DataFolder = "D:\Trabajo\upstream-production-reporting\data\mart\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 08de8256-c94a-4ba1-9037-07a9aee6cc98
+
+	annotation PBI_ResultType = Text
+

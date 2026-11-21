@@ -1,0 +1,75 @@
+/// Every issue found by the validation checks in sql/02_validation.sql.
+table 'DQ Issues'
+	lineageTag: 920c9d1c-a56e-4008-8d2c-29c1d1a62583
+
+	column IssueID
+		dataType: int64
+		isHidden
+		lineageTag: 06894121-faed-4311-a090-7eef0c890c59
+		summarizeBy: none
+		sourceColumn: IssueID
+
+	column Check
+		dataType: string
+		lineageTag: 9dafbcdf-9006-4062-a9ce-0f11b998481f
+		summarizeBy: none
+		sourceColumn: Check
+
+	column Severity
+		dataType: string
+		lineageTag: 97ab1e7c-573b-41cd-bfed-8204ed773a25
+		summarizeBy: none
+		sourceColumn: Severity
+
+	column Source
+		dataType: string
+		lineageTag: b11655a1-004b-4b4c-bc92-7cfe35476f02
+		summarizeBy: none
+		sourceColumn: Source
+
+	column WellID
+		dataType: string
+		lineageTag: 428262bc-e2bc-4e4f-9eb4-4026cf0c659b
+		summarizeBy: none
+		sourceColumn: WellID
+
+	column Lease
+		dataType: string
+		isHidden
+		lineageTag: fc177fd5-b45f-42c0-9218-34df5b51c572
+		summarizeBy: none
+		sourceColumn: Lease
+
+	column 'Issue Date'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 5a5c0d66-8764-4a95-8aa0-879205273064
+		summarizeBy: none
+		sourceColumn: Issue Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Detail
+		dataType: string
+		lineageTag: b9637bd0-ddaa-4cba-800f-2184f0116311
+		summarizeBy: none
+		sourceColumn: Detail
+
+	column Action
+		dataType: string
+		lineageTag: ab20f248-811d-4f2a-be57-5d9b32164019
+		summarizeBy: none
+		sourceColumn: Action
+
+	partition 'DQ Issues' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dq_issues.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, Table.ColumnNames(Promoted)),
+				    Renamed = Table.RenameColumns(Blanks, {{"issue_id", "IssueID"}, {"check_name", "Check"}, {"severity", "Severity"}, {"source", "Source"}, {"well_id", "WellID"}, {"lease", "Lease"}, {"issue_date", "Issue Date"}, {"detail", "Detail"}, {"action", "Action"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"IssueID", Int64.Type}, {"Check", type text}, {"Severity", type text}, {"Source", type text}, {"WellID", type text}, {"Lease", type text}, {"Issue Date", type date}, {"Detail", type text}, {"Action", type text}}, "en-US")
+				in
+				    Typed
+

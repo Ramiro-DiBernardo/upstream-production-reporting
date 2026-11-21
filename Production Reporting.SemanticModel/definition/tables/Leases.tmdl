@@ -1,0 +1,26 @@
+/// Lease dimension (derived from Wells in Power Query). LOE and sales are booked at this level.
+table Leases
+	lineageTag: bf356c60-405e-4af8-843d-b005509bfa97
+
+	column Lease
+		dataType: string
+		isKey
+		lineageTag: 8fbb3c35-94ff-4486-ac65-47a449c63f2c
+		summarizeBy: none
+		sourceColumn: Lease
+
+	column Field
+		dataType: string
+		lineageTag: 85c6563c-c5be-4fc7-8d64-e577be607f9a
+		summarizeBy: none
+		sourceColumn: Field
+
+	partition Leases = m
+		mode: import
+		source =
+				let
+				    Source = Wells,
+				    Leases = Table.Distinct(Table.SelectColumns(Source, {"Lease", "Field"}))
+				in
+				    Leases
+

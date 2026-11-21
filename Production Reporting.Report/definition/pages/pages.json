@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.1.0/schema.json",
+  "pageOrder": [
+    "p0brief000000000000f",
+    "p1production0000000a",
+    "p2downtime000000000b",
+    "p3cost0000000000000c",
+    "p4quality00000000000d",
+    "p5scada000000000000e"
+  ],
+  "activePageName": "p5scada000000000000e"
+}

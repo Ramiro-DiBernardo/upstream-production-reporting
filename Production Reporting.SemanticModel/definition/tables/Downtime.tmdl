@@ -1,0 +1,81 @@
+/// Downtime events (one row per event).
+table Downtime
+	lineageTag: 814046db-9cba-48bf-ba3b-fbd0c15eb10d
+
+	column EventID
+		dataType: string
+		lineageTag: 25286a6f-04a1-4053-862e-71308c86aaa8
+		summarizeBy: none
+		sourceColumn: EventID
+
+	column WellID
+		dataType: string
+		isHidden
+		lineageTag: 1ff059db-d5b5-4be9-9f83-ede09b634ef5
+		summarizeBy: none
+		sourceColumn: WellID
+
+	column StartDate
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		lineageTag: bba58091-cfc1-48f8-8114-1c2a225c8aa3
+		summarizeBy: none
+		sourceColumn: StartDate
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Start
+		dataType: dateTime
+		formatString: yyyy-mm-dd hh:nn
+		lineageTag: 4bef0209-47b5-46c8-9d9a-844294870331
+		summarizeBy: none
+		sourceColumn: Start
+
+	column End
+		dataType: dateTime
+		formatString: yyyy-mm-dd hh:nn
+		lineageTag: a3df5d38-04a2-4b36-bc7a-c88be2e190ad
+		summarizeBy: none
+		sourceColumn: End
+
+	column DurationH
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 98686bda-020b-461c-afec-527ce7d95bcc
+		summarizeBy: sum
+		sourceColumn: DurationH
+
+	column Reason
+		dataType: string
+		lineageTag: beb909ed-f70a-4572-9c52-6e2c0675eb36
+		summarizeBy: none
+		sourceColumn: Reason
+
+	column Category
+		dataType: string
+		lineageTag: c4ee9655-9475-4612-8070-2967fa170901
+		summarizeBy: none
+		sourceColumn: Category
+
+	column EstDeferredOilBbl
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: cf88fe5c-05d4-4104-a9a6-242fab4a6acb
+		summarizeBy: sum
+		sourceColumn: EstDeferredOilBbl
+
+	partition Downtime = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_downtime_events.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, Table.ColumnNames(Promoted)),
+				    Renamed = Table.RenameColumns(Blanks, {{"event_id", "EventID"}, {"well_id", "WellID"}, {"start_date", "StartDate"}, {"start_time", "Start"}, {"end_time", "End"}, {"duration_h", "DurationH"}, {"reason", "Reason"}, {"category", "Category"}, {"est_deferred_oil_bbl", "EstDeferredOilBbl"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"EventID", type text}, {"WellID", type text}, {"StartDate", type date}, {"Start", type datetime}, {"End", type datetime}, {"DurationH", type number}, {"Reason", type text}, {"Category", type text}, {"EstDeferredOilBbl", type number}}, "en-US")
+				in
+				    Typed
+

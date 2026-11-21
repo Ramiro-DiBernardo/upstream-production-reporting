@@ -1,0 +1,193 @@
+issue_id,check_name,severity,source,well_id,lease,issue_date,detail,action
+1,Negative volume,Error,daily_production,W-003,Mesa North,2025-01-02,Oil = -378.2 bbl,Row rejected
+2,Hours on out of range,Warning,daily_production,W-004,Mesa South,2025-01-03,Hours on = 47.9,Capped at 24 h
+3,Hours on out of range,Warning,daily_production,W-003,Mesa North,2025-01-06,Hours on = 36.5,Capped at 24 h
+4,Missing day,Warning,daily_production,W-006,Mesa South,2025-01-06,1 day(s) not reported before 2025-01-07,Left blank (not imputed); forecast still counts
+5,Missing volume,Error,daily_production,W-006,Mesa South,2025-01-10,Oil volume is blank,Row rejected
+6,Missing day,Warning,daily_production,W-001,Mesa North,2025-01-17,1 day(s) not reported before 2025-01-18,Left blank (not imputed); forecast still counts
+7,Missing day,Warning,daily_production,W-013,Sandhill East,2025-01-19,1 day(s) not reported before 2025-01-20,Left blank (not imputed); forecast still counts
+8,Duplicate well-day,Warning,daily_production,W-018,Sandhill West,2025-01-22,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+9,Missing volume,Error,daily_production,W-007,Red Creek A,2025-01-29,Oil volume is blank,Row rejected
+10,Missing day,Warning,daily_production,W-004,Mesa South,2025-02-02,1 day(s) not reported before 2025-02-03,Left blank (not imputed); forecast still counts
+11,Duplicate well-day,Warning,daily_production,W-016,Sandhill West,2025-02-03,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+12,Missing day,Warning,daily_production,W-003,Mesa North,2025-02-05,1 day(s) not reported before 2025-02-06,Left blank (not imputed); forecast still counts
+13,Missing volume,Error,daily_production,W-013,Sandhill East,2025-02-06,Oil volume is blank,Row rejected
+14,Missing day,Warning,daily_production,W-016,Sandhill West,2025-02-07,1 day(s) not reported before 2025-02-08,Left blank (not imputed); forecast still counts
+15,Missing day,Warning,daily_production,W-016,Sandhill West,2025-02-15,1 day(s) not reported before 2025-02-16,Left blank (not imputed); forecast still counts
+16,Missing day,Warning,daily_production,W-014,Sandhill East,2025-02-27,1 day(s) not reported before 2025-02-28,Left blank (not imputed); forecast still counts
+17,Negative volume,Error,daily_production,W-001,Mesa North,2025-03-14,Oil = -411.1 bbl,Row rejected
+18,Missing day,Warning,daily_production,W-001,Mesa North,2025-03-16,1 day(s) not reported before 2025-03-17,Left blank (not imputed); forecast still counts
+19,Missing day,Warning,daily_production,W-010,Red Creek B,2025-03-20,1 day(s) not reported before 2025-03-21,Left blank (not imputed); forecast still counts
+20,Missing day,Warning,daily_production,W-004,Mesa South,2025-03-21,1 day(s) not reported before 2025-03-22,Left blank (not imputed); forecast still counts
+21,Duplicate well-day,Warning,daily_production,W-012,Red Creek B,2025-03-24,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+22,Hours on out of range,Warning,daily_production,W-015,Sandhill East,2025-03-24,Hours on = 25.1,Capped at 24 h
+23,Duplicate well-day,Warning,daily_production,W-016,Sandhill West,2025-03-28,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+24,Hours on out of range,Warning,daily_production,W-007,Red Creek A,2025-04-05,Hours on = 33.3,Capped at 24 h
+25,Missing day,Warning,daily_production,W-001,Mesa North,2025-04-10,1 day(s) not reported before 2025-04-11,Left blank (not imputed); forecast still counts
+26,Duplicate well-day,Warning,daily_production,W-006,Mesa South,2025-04-17,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+27,Duplicate well-day,Warning,daily_production,W-015,Sandhill East,2025-05-02,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+28,Missing day,Warning,daily_production,W-007,Red Creek A,2025-05-03,1 day(s) not reported before 2025-05-04,Left blank (not imputed); forecast still counts
+29,Duplicate well-day,Warning,daily_production,W-015,Sandhill East,2025-05-06,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+30,Duplicate well-day,Warning,daily_production,W-002,Mesa North,2025-05-12,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+31,Missing day,Warning,daily_production,W-008,Red Creek A,2025-05-16,1 day(s) not reported before 2025-05-17,Left blank (not imputed); forecast still counts
+32,Missing day,Warning,daily_production,W-015,Sandhill East,2025-05-27,1 day(s) not reported before 2025-05-28,Left blank (not imputed); forecast still counts
+33,Duplicate well-day,Warning,daily_production,W-006,Mesa South,2025-06-02,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+34,Duplicate well-day,Warning,daily_production,W-006,Mesa South,2025-06-06,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+35,Duplicate well-day,Warning,daily_production,W-015,Sandhill East,2025-06-09,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+36,Missing day,Warning,daily_production,W-001,Mesa North,2025-06-12,1 day(s) not reported before 2025-06-13,Left blank (not imputed); forecast still counts
+37,Missing day,Warning,daily_production,W-009,Red Creek A,2025-06-12,1 day(s) not reported before 2025-06-13,Left blank (not imputed); forecast still counts
+38,Duplicate well-day,Warning,daily_production,W-013,Sandhill East,2025-06-14,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+39,Duplicate well-day,Warning,daily_production,W-015,Sandhill East,2025-06-24,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+40,Hours on out of range,Warning,daily_production,W-007,Red Creek A,2025-07-03,Hours on = 45.5,Capped at 24 h
+41,Duplicate well-day,Warning,daily_production,W-006,Mesa South,2025-07-09,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+42,Hours on out of range,Warning,daily_production,W-003,Mesa North,2025-07-10,Hours on = 37.4,Capped at 24 h
+43,Negative volume,Error,daily_production,W-012,Red Creek B,2025-07-11,Oil = -334.3 bbl,Row rejected
+44,Negative volume,Error,daily_production,W-001,Mesa North,2025-07-15,Oil = -369.8 bbl,Row rejected
+45,Duplicate well-day,Warning,daily_production,W-003,Mesa North,2025-07-26,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+46,Missing day,Warning,daily_production,W-007,Red Creek A,2025-07-28,1 day(s) not reported before 2025-07-29,Left blank (not imputed); forecast still counts
+47,Missing day,Warning,daily_production,W-013,Sandhill East,2025-07-28,1 day(s) not reported before 2025-07-29,Left blank (not imputed); forecast still counts
+48,Missing day,Warning,daily_production,W-008,Red Creek A,2025-08-03,1 day(s) not reported before 2025-08-04,Left blank (not imputed); forecast still counts
+49,Missing day,Warning,daily_production,W-009,Red Creek A,2025-08-06,1 day(s) not reported before 2025-08-07,Left blank (not imputed); forecast still counts
+50,Hours on out of range,Warning,daily_production,W-018,Sandhill West,2025-08-11,Hours on = 40.8,Capped at 24 h
+51,Duplicate well-day,Warning,daily_production,W-010,Red Creek B,2025-08-21,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+52,Negative volume,Error,daily_production,W-003,Mesa North,2025-08-30,Oil = -312.1 bbl,Row rejected
+53,Duplicate well-day,Warning,daily_production,W-016,Sandhill West,2025-09-01,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+54,Missing day,Warning,daily_production,W-003,Mesa North,2025-09-01,1 day(s) not reported before 2025-09-02,Left blank (not imputed); forecast still counts
+55,Sales vs allocation,Warning,sales_tickets,,Red Creek B,2025-09-01,Allocated 17193 bbl vs sold 18740 bbl (+9.0%),Investigate meter / allocation
+56,Missing day,Warning,daily_production,W-009,Red Creek A,2025-09-04,1 day(s) not reported before 2025-09-05,Left blank (not imputed); forecast still counts
+57,Missing volume,Error,daily_production,W-013,Sandhill East,2025-09-04,Oil volume is blank,Row rejected
+58,Duplicate well-day,Warning,daily_production,W-001,Mesa North,2025-09-09,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+59,Missing day,Warning,daily_production,W-009,Red Creek A,2025-09-10,1 day(s) not reported before 2025-09-11,Left blank (not imputed); forecast still counts
+60,Negative volume,Error,daily_production,W-013,Sandhill East,2025-09-19,Oil = -179.6 bbl,Row rejected
+61,Duplicate well-day,Warning,daily_production,W-013,Sandhill East,2025-10-01,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+62,Missing day,Warning,daily_production,W-013,Sandhill East,2025-10-02,1 day(s) not reported before 2025-10-03,Left blank (not imputed); forecast still counts
+63,Hours on out of range,Warning,daily_production,W-012,Red Creek B,2025-10-06,Hours on = 40.8,Capped at 24 h
+64,Duplicate well-day,Warning,daily_production,W-015,Sandhill East,2025-10-11,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+65,Missing day,Warning,daily_production,W-009,Red Creek A,2025-10-20,1 day(s) not reported before 2025-10-21,Left blank (not imputed); forecast still counts
+66,Missing day,Warning,daily_production,W-010,Red Creek B,2025-10-20,1 day(s) not reported before 2025-10-21,Left blank (not imputed); forecast still counts
+67,Negative volume,Error,daily_production,W-006,Mesa South,2025-10-27,Oil = -221.9 bbl,Row rejected
+68,Missing day,Warning,daily_production,W-004,Mesa South,2025-11-13,1 day(s) not reported before 2025-11-14,Left blank (not imputed); forecast still counts
+69,Missing day,Warning,daily_production,W-008,Red Creek A,2025-11-15,1 day(s) not reported before 2025-11-16,Left blank (not imputed); forecast still counts
+70,Hours on out of range,Warning,daily_production,W-001,Mesa North,2025-11-16,Hours on = 33.7,Capped at 24 h
+71,Missing day,Warning,daily_production,W-018,Sandhill West,2025-12-01,1 day(s) not reported before 2025-12-02,Left blank (not imputed); forecast still counts
+72,Missing day,Warning,daily_production,W-002,Mesa North,2025-12-05,1 day(s) not reported before 2025-12-06,Left blank (not imputed); forecast still counts
+73,Missing day,Warning,daily_production,W-016,Sandhill West,2025-12-17,1 day(s) not reported before 2025-12-18,Left blank (not imputed); forecast still counts
+74,Negative volume,Error,daily_production,W-003,Mesa North,2025-12-17,Oil = -287.8 bbl,Row rejected
+75,Missing day,Warning,daily_production,W-010,Red Creek B,2025-12-18,1 day(s) not reported before 2025-12-19,Left blank (not imputed); forecast still counts
+76,Missing day,Warning,daily_production,W-008,Red Creek A,2025-12-20,1 day(s) not reported before 2025-12-21,Left blank (not imputed); forecast still counts
+77,Negative volume,Error,daily_production,W-007,Red Creek A,2026-01-01,Oil = -110.8 bbl,Row rejected
+78,Sales vs allocation,Warning,sales_tickets,,Red Creek A,2026-01-01,Allocated 14424 bbl vs sold 14939 bbl (+3.6%),Investigate meter / allocation
+79,Negative volume,Error,daily_production,W-018,Sandhill West,2026-01-03,Oil = -196.6 bbl,Row rejected
+80,Missing day,Warning,daily_production,W-001,Mesa North,2026-01-09,1 day(s) not reported before 2026-01-10,Left blank (not imputed); forecast still counts
+81,Negative volume,Error,daily_production,W-014,Sandhill East,2026-01-09,Oil = -181.4 bbl,Row rejected
+82,Hours on out of range,Warning,daily_production,W-014,Sandhill East,2026-01-11,Hours on = 42.9,Capped at 24 h
+83,Missing day,Warning,daily_production,W-009,Red Creek A,2026-01-11,1 day(s) not reported before 2026-01-12,Left blank (not imputed); forecast still counts
+84,Missing day,Warning,daily_production,W-014,Sandhill East,2026-01-17,1 day(s) not reported before 2026-01-18,Left blank (not imputed); forecast still counts
+85,Hours on out of range,Warning,daily_production,W-008,Red Creek A,2026-01-19,Hours on = 30.3,Capped at 24 h
+86,Negative volume,Error,daily_production,W-008,Red Creek A,2026-01-29,Oil = -217.7 bbl,Row rejected
+87,Hours on out of range,Warning,daily_production,W-012,Red Creek B,2026-02-02,Hours on = 40.0,Capped at 24 h
+88,Duplicate well-day,Warning,daily_production,W-014,Sandhill East,2026-02-23,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+89,Negative volume,Error,daily_production,W-010,Red Creek B,2026-02-28,Oil = -227.9 bbl,Row rejected
+90,Duplicate well-day,Warning,daily_production,W-014,Sandhill East,2026-03-05,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+91,Hours on out of range,Warning,daily_production,W-008,Red Creek A,2026-03-05,Hours on = 35.4,Capped at 24 h
+92,Missing day,Warning,daily_production,W-001,Mesa North,2026-03-08,1 day(s) not reported before 2026-03-09,Left blank (not imputed); forecast still counts
+93,Duplicate well-day,Warning,daily_production,W-009,Red Creek A,2026-03-12,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+94,Negative volume,Error,daily_production,W-001,Mesa North,2026-03-12,Oil = -271.2 bbl,Row rejected
+95,Missing volume,Error,daily_production,W-007,Red Creek A,2026-03-17,Oil volume is blank,Row rejected
+96,Duplicate well-day,Warning,daily_production,W-005,Mesa South,2026-03-19,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+97,Duplicate well-day,Warning,daily_production,W-016,Sandhill West,2026-03-31,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+98,Sales vs allocation,Warning,sales_tickets,,Sandhill East,2026-04-01,Allocated 12323 bbl vs sold 11386 bbl (-7.6%),Investigate meter / allocation
+99,Missing day,Warning,daily_production,W-014,Sandhill East,2026-04-02,1 day(s) not reported before 2026-04-03,Left blank (not imputed); forecast still counts
+100,Hours on out of range,Warning,daily_production,W-007,Red Creek A,2026-04-06,Hours on = 31.9,Capped at 24 h
+101,Missing day,Warning,daily_production,W-008,Red Creek A,2026-04-17,1 day(s) not reported before 2026-04-18,Left blank (not imputed); forecast still counts
+102,Missing volume,Error,daily_production,W-004,Mesa South,2026-04-18,Oil volume is blank,Row rejected
+103,Negative volume,Error,daily_production,W-018,Sandhill West,2026-04-18,Oil = -179.0 bbl,Row rejected
+104,Negative volume,Error,daily_production,W-014,Sandhill East,2026-04-20,Oil = -158.8 bbl,Row rejected
+105,Duplicate well-day,Warning,daily_production,W-005,Mesa South,2026-04-22,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+106,Missing day,Warning,daily_production,W-011,Red Creek B,2026-04-25,1 day(s) not reported before 2026-04-26,Left blank (not imputed); forecast still counts
+107,Missing volume,Error,daily_production,W-005,Mesa South,2026-04-29,Oil volume is blank,Row rejected
+108,Missing volume,Error,daily_production,W-006,Mesa South,2026-05-01,Oil volume is blank,Row rejected
+109,Duplicate well-day,Warning,daily_production,W-018,Sandhill West,2026-05-02,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+110,Negative volume,Error,daily_production,W-016,Sandhill West,2026-05-07,Oil = -152.3 bbl,Row rejected
+111,Missing day,Warning,daily_production,W-018,Sandhill West,2026-05-17,1 day(s) not reported before 2026-05-18,Left blank (not imputed); forecast still counts
+112,Missing day,Warning,daily_production,W-014,Sandhill East,2026-05-29,1 day(s) not reported before 2026-05-30,Left blank (not imputed); forecast still counts
+113,Duplicate well-day,Warning,daily_production,W-018,Sandhill West,2026-05-30,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+114,Duplicate well-day,Warning,daily_production,W-004,Mesa South,2026-06-01,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+115,Duplicate well-day,Warning,daily_production,W-007,Red Creek A,2026-06-02,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+116,Negative volume,Error,daily_production,W-006,Mesa South,2026-06-05,Oil = -189.7 bbl,Row rejected
+117,Duplicate well-day,Warning,daily_production,W-008,Red Creek A,2026-06-14,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+118,Missing day,Warning,daily_production,W-014,Sandhill East,2026-06-15,1 day(s) not reported before 2026-06-16,Left blank (not imputed); forecast still counts
+119,Missing day,Warning,daily_production,W-002,Mesa North,2026-06-19,1 day(s) not reported before 2026-06-20,Left blank (not imputed); forecast still counts
+120,Missing volume,Error,daily_production,W-008,Red Creek A,2026-06-20,Oil volume is blank,Row rejected
+121,Missing day,Warning,daily_production,W-001,Mesa North,2026-06-24,1 day(s) not reported before 2026-06-25,Left blank (not imputed); forecast still counts
+122,Duplicate well-day,Warning,daily_production,W-003,Mesa North,2026-06-27,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+123,Negative volume,Error,daily_production,W-012,Red Creek B,2026-06-28,Oil = -246.1 bbl,Row rejected
+124,Duplicate well-day,Warning,daily_production,W-016,Sandhill West,2026-06-29,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+125,Hours on out of range,Warning,daily_production,W-018,Sandhill West,2026-06-29,Hours on = 43.2,Capped at 24 h
+126,Hours on out of range,Warning,daily_production,W-016,Sandhill West,2026-06-30,Hours on = 34.2,Capped at 24 h
+127,Missing day,Warning,daily_production,W-014,Sandhill East,2026-07-26,1 day(s) not reported before 2026-07-27,Left blank (not imputed); forecast still counts
+128,Missing day,Warning,daily_production,W-008,Red Creek A,2026-07-27,1 day(s) not reported before 2026-07-28,Left blank (not imputed); forecast still counts
+129,Missing day,Warning,daily_production,W-005,Mesa South,2026-07-30,1 day(s) not reported before 2026-07-31,Left blank (not imputed); forecast still counts
+130,Negative volume,Error,daily_production,W-010,Red Creek B,2026-07-30,Oil = -187.7 bbl,Row rejected
+131,Sales vs allocation,Warning,sales_tickets,,Mesa North,2026-08-01,Allocated 20123 bbl vs sold 18513 bbl (-8.0%),Investigate meter / allocation
+132,Sensor spike,Warning,scada_hourly,W-008,Red Creek A,2026-08-08,Tubing pressure = 0.0 psi at 22:00,Reading set to NULL
+133,Sensor spike,Warning,scada_hourly,W-016,Sandhill West,2026-08-09,Tubing pressure = 9999.0 psi at 17:00,Reading set to NULL
+134,Sensor spike,Warning,scada_hourly,W-012,Red Creek B,2026-08-11,Tubing pressure = 0.0 psi at 00:00,Reading set to NULL
+135,Sensor spike,Warning,scada_hourly,W-004,Mesa South,2026-08-12,Tubing pressure = 9999.0 psi at 00:00,Reading set to NULL
+136,Sensor spike,Warning,scada_hourly,W-010,Red Creek B,2026-08-12,Tubing pressure = 0.0 psi at 16:00,Reading set to NULL
+137,Sensor spike,Warning,scada_hourly,W-011,Red Creek B,2026-08-14,Tubing pressure = 9999.0 psi at 06:00,Reading set to NULL
+138,Sensor spike,Warning,scada_hourly,W-018,Sandhill West,2026-08-14,Tubing pressure = 9999.0 psi at 15:00,Reading set to NULL
+139,Hours on out of range,Warning,daily_production,W-015,Sandhill East,2026-08-15,Hours on = 26.7,Capped at 24 h
+140,Sensor spike,Warning,scada_hourly,W-007,Red Creek A,2026-08-18,Tubing pressure = 9999.0 psi at 18:00,Reading set to NULL
+141,Missing day,Warning,daily_production,W-014,Sandhill East,2026-08-19,1 day(s) not reported before 2026-08-20,Left blank (not imputed); forecast still counts
+142,Sensor spike,Warning,scada_hourly,W-008,Red Creek A,2026-08-20,Tubing pressure = 0.0 psi at 11:00,Reading set to NULL
+143,Sensor spike,Warning,scada_hourly,W-012,Red Creek B,2026-08-20,Tubing pressure = 9999.0 psi at 11:00,Reading set to NULL
+144,Sensor spike,Warning,scada_hourly,W-015,Sandhill East,2026-08-22,Tubing pressure = 9999.0 psi at 07:00,Reading set to NULL
+145,Hours on out of range,Warning,daily_production,W-013,Sandhill East,2026-08-26,Hours on = 34.7,Capped at 24 h
+146,Duplicate well-day,Warning,daily_production,W-003,Mesa North,2026-08-27,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+147,Sensor spike,Warning,scada_hourly,W-015,Sandhill East,2026-08-29,Tubing pressure = 0.0 psi at 09:00,Reading set to NULL
+148,Sensor spike,Warning,scada_hourly,W-011,Red Creek B,2026-08-30,Tubing pressure = 0.0 psi at 11:00,Reading set to NULL
+149,Sensor spike,Warning,scada_hourly,W-015,Sandhill East,2026-09-01,Tubing pressure = 0.0 psi at 10:00,Reading set to NULL
+150,Sensor spike,Warning,scada_hourly,W-003,Mesa North,2026-09-02,Tubing pressure = 9999.0 psi at 06:00,Reading set to NULL
+151,Sensor spike,Warning,scada_hourly,W-017,Sandhill West,2026-09-02,Tubing pressure = 0.0 psi at 12:00,Reading set to NULL
+152,Duplicate well-day,Warning,daily_production,W-010,Red Creek B,2026-09-03,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+153,Sensor spike,Warning,scada_hourly,W-018,Sandhill West,2026-09-03,Tubing pressure = 9999.0 psi at 23:00,Reading set to NULL
+154,Sensor spike,Warning,scada_hourly,W-010,Red Creek B,2026-09-05,Tubing pressure = 0.0 psi at 09:00,Reading set to NULL
+155,SCADA vs daily volume,Warning,scada_hourly,W-001,Mesa North,2026-09-06,SCADA 114.0 bbl vs reported 144.0 bbl (-20.9%),Kept; review allocation
+156,SCADA vs daily volume,Warning,scada_hourly,W-005,Mesa South,2026-09-07,SCADA 367.0 bbl vs reported 468.0 bbl (-21.4%),Kept; review allocation
+157,SCADA vs daily volume,Warning,scada_hourly,W-007,Red Creek A,2026-09-09,SCADA 94.0 bbl vs reported 113.0 bbl (-16.5%),Kept; review allocation
+158,Missing day,Warning,daily_production,W-008,Red Creek A,2026-09-13,1 day(s) not reported before 2026-09-14,Left blank (not imputed); forecast still counts
+159,Sensor spike,Warning,scada_hourly,W-012,Red Creek B,2026-09-14,Tubing pressure = 0.0 psi at 00:00,Reading set to NULL
+160,Duplicate well-day,Warning,daily_production,W-008,Red Creek A,2026-09-15,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+161,SCADA vs daily volume,Warning,scada_hourly,W-017,Sandhill West,2026-09-16,SCADA 402.0 bbl vs reported 477.0 bbl (-15.8%),Kept; review allocation
+162,Sensor spike,Warning,scada_hourly,W-005,Mesa South,2026-09-19,Tubing pressure = 9999.0 psi at 21:00,Reading set to NULL
+163,Sensor spike,Warning,scada_hourly,W-017,Sandhill West,2026-09-19,Tubing pressure = 0.0 psi at 23:00,Reading set to NULL
+164,Duplicate well-day,Warning,daily_production,W-003,Mesa North,2026-09-20,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+165,Missing day,Warning,daily_production,W-014,Sandhill East,2026-09-21,1 day(s) not reported before 2026-09-22,Left blank (not imputed); forecast still counts
+166,Missing day,Warning,daily_production,W-012,Red Creek B,2026-09-23,1 day(s) not reported before 2026-09-24,Left blank (not imputed); forecast still counts
+167,Hours on out of range,Warning,daily_production,W-008,Red Creek A,2026-09-25,Hours on = 47.7,Capped at 24 h
+168,Sensor spike,Warning,scada_hourly,W-002,Mesa North,2026-09-25,Tubing pressure = 9999.0 psi at 11:00,Reading set to NULL
+169,Missing day,Warning,daily_production,W-017,Sandhill West,2026-09-27,1 day(s) not reported before 2026-09-28,Left blank (not imputed); forecast still counts
+170,Sensor spike,Warning,scada_hourly,W-005,Mesa South,2026-09-28,Tubing pressure = 9999.0 psi at 05:00,Reading set to NULL
+171,Sensor spike,Warning,scada_hourly,W-003,Mesa North,2026-10-04,Tubing pressure = 0.0 psi at 19:00,Reading set to NULL
+172,Duplicate well-day,Warning,daily_production,W-012,Red Creek B,2026-10-05,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+173,Duplicate well-day,Warning,daily_production,W-001,Mesa North,2026-10-08,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+174,Sensor spike,Warning,scada_hourly,W-016,Sandhill West,2026-10-09,Tubing pressure = 0.0 psi at 05:00,Reading set to NULL
+175,Missing day,Warning,daily_production,W-012,Red Creek B,2026-10-10,1 day(s) not reported before 2026-10-11,Left blank (not imputed); forecast still counts
+176,SCADA vs daily volume,Warning,scada_hourly,W-005,Mesa South,2026-10-11,SCADA 331.0 bbl vs reported 274.0 bbl (+20.8%),Kept; review allocation
+177,SCADA vs daily volume,Warning,scada_hourly,W-016,Sandhill West,2026-10-14,SCADA 156.0 bbl vs reported 186.0 bbl (-16.3%),Kept; review allocation
+178,Sensor spike,Warning,scada_hourly,W-009,Red Creek A,2026-10-14,Tubing pressure = 0.0 psi at 23:00,Reading set to NULL
+179,Sensor spike,Warning,scada_hourly,W-017,Sandhill West,2026-10-18,Tubing pressure = 9999.0 psi at 14:00,Reading set to NULL
+180,Sensor spike,Warning,scada_hourly,W-013,Sandhill East,2026-10-19,Tubing pressure = 9999.0 psi at 17:00,Reading set to NULL
+181,SCADA vs daily volume,Warning,scada_hourly,W-004,Mesa South,2026-10-20,SCADA 223.0 bbl vs reported 173.0 bbl (+28.8%),Kept; review allocation
+182,Duplicate well-day,Warning,daily_production,W-004,Mesa South,2026-10-21,Copy #2 of the same well-day,"Removed duplicate, kept first copy"
+183,Missing volume,Error,daily_production,W-013,Sandhill East,2026-10-21,Oil volume is blank,Row rejected
+184,Sensor spike,Warning,scada_hourly,W-004,Mesa South,2026-10-21,Tubing pressure = 0.0 psi at 05:00,Reading set to NULL
+185,Sensor spike,Warning,scada_hourly,W-014,Sandhill East,2026-10-22,Tubing pressure = 0.0 psi at 02:00,Reading set to NULL
+186,Sensor spike,Warning,scada_hourly,W-017,Sandhill West,2026-10-22,Tubing pressure = 9999.0 psi at 18:00,Reading set to NULL
+187,Sensor spike,Warning,scada_hourly,W-003,Mesa North,2026-10-23,Tubing pressure = 9999.0 psi at 23:00,Reading set to NULL
+188,Sensor spike,Warning,scada_hourly,W-017,Sandhill West,2026-10-27,Tubing pressure = 9999.0 psi at 10:00,Reading set to NULL
+189,Sensor spike,Warning,scada_hourly,W-002,Mesa North,2026-10-28,Tubing pressure = 0.0 psi at 09:00,Reading set to NULL
+190,Sensor spike,Warning,scada_hourly,W-004,Mesa South,2026-10-29,Tubing pressure = 0.0 psi at 18:00,Reading set to NULL
+191,SCADA vs daily volume,Warning,scada_hourly,W-004,Mesa South,2026-10-30,SCADA 224.0 bbl vs reported 275.0 bbl (-18.4%),Kept; review allocation
+192,Hours on out of range,Warning,daily_production,W-011,Red Creek B,2026-10-31,Hours on = 47.8,Capped at 24 h

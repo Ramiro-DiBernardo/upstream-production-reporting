@@ -1,0 +1,19 @@
+well_id,well_name,field,lease,lift_type,first_prod_date,well_vintage
+W-001,Mesa 14-1H,Mesa Field,Mesa North,Rod pump,2023-11-07,Base well
+W-002,Mesa 23-2H,Mesa Field,Mesa North,Rod pump,2024-07-07,Base well
+W-003,Mesa 30-3H,Mesa Field,Mesa North,Gas lift,2024-02-18,Base well
+W-004,Mesa 23-1H,Mesa Field,Mesa South,ESP,2023-12-12,Base well
+W-005,Mesa 28-2H,Mesa Field,Mesa South,Gas lift,2026-02-22,New well
+W-006,Mesa 34-3H,Mesa Field,Mesa South,Rod pump,2023-07-24,Base well
+W-007,Red 34-1H,Red Creek Field,Red Creek A,ESP,2022-10-19,Base well
+W-008,Red 26-2H,Red Creek Field,Red Creek A,Rod pump,2024-06-05,Base well
+W-009,Red 12-3H,Red Creek Field,Red Creek A,Gas lift,2022-11-19,Base well
+W-010,Red 36-1H,Red Creek Field,Red Creek B,ESP,2024-07-25,Base well
+W-011,Red 31-2H,Red Creek Field,Red Creek B,Rod pump,2026-02-20,New well
+W-012,Red 11-3H,Red Creek Field,Red Creek B,ESP,2023-05-17,Base well
+W-013,Sandhill 12-1H,Sandhill Field,Sandhill East,ESP,2023-05-14,Base well
+W-014,Sandhill 31-2H,Sandhill Field,Sandhill East,Rod pump,2023-10-02,Base well
+W-015,Sandhill 36-3H,Sandhill Field,Sandhill East,Gas lift,2023-05-26,Base well
+W-016,Sandhill 37-1H,Sandhill Field,Sandhill West,Gas lift,2022-10-27,Base well
+W-017,Sandhill 22-2H,Sandhill Field,Sandhill West,Rod pump,2026-02-11,New well
+W-018,Sandhill 20-3H,Sandhill Field,Sandhill West,Gas lift,2024-06-13,Base well

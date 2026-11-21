@@ -1,0 +1,265 @@
+month_start,lease,product,allocated_volume,sold_volume
+2025-01-01,Mesa North,Oil (bbl),31046.0,31523.0
+2025-02-01,Mesa North,Oil (bbl),28057.0,28262.0
+2025-03-01,Mesa North,Oil (bbl),28290.0,28988.0
+2025-04-01,Mesa North,Oil (bbl),26978.0,27149.0
+2025-05-01,Mesa North,Oil (bbl),29845.0,29579.0
+2025-06-01,Mesa North,Oil (bbl),27898.0,27947.0
+2025-07-01,Mesa North,Oil (bbl),27046.0,27118.0
+2025-08-01,Mesa North,Oil (bbl),25478.0,25731.0
+2025-09-01,Mesa North,Oil (bbl),25768.0,25975.0
+2025-10-01,Mesa North,Oil (bbl),23416.0,23323.0
+2025-11-01,Mesa North,Oil (bbl),22944.0,22743.0
+2025-12-01,Mesa North,Oil (bbl),22890.0,23116.0
+2026-01-01,Mesa North,Oil (bbl),22039.0,21966.0
+2026-02-01,Mesa North,Oil (bbl),19141.0,19079.0
+2026-03-01,Mesa North,Oil (bbl),20633.0,20879.0
+2026-04-01,Mesa North,Oil (bbl),20305.0,20409.0
+2026-05-01,Mesa North,Oil (bbl),20308.0,20132.0
+2026-06-01,Mesa North,Oil (bbl),19280.0,19714.0
+2026-07-01,Mesa North,Oil (bbl),20558.0,20313.0
+2026-08-01,Mesa North,Oil (bbl),20123.0,18513.0
+2026-09-01,Mesa North,Oil (bbl),18887.0,18791.0
+2026-10-01,Mesa North,Oil (bbl),18601.0,18282.0
+2025-01-01,Mesa South,Oil (bbl),20256.0,20746.0
+2025-02-01,Mesa South,Oil (bbl),17081.0,17340.0
+2025-03-01,Mesa South,Oil (bbl),17818.0,17957.0
+2025-04-01,Mesa South,Oil (bbl),17093.0,16869.0
+2025-05-01,Mesa South,Oil (bbl),16466.0,16117.0
+2025-06-01,Mesa South,Oil (bbl),16971.0,16861.0
+2025-07-01,Mesa South,Oil (bbl),17122.0,17026.0
+2025-08-01,Mesa South,Oil (bbl),13781.0,13479.0
+2025-09-01,Mesa South,Oil (bbl),15009.0,14764.0
+2025-10-01,Mesa South,Oil (bbl),15383.0,15587.0
+2025-11-01,Mesa South,Oil (bbl),12985.0,13139.0
+2025-12-01,Mesa South,Oil (bbl),14441.0,14388.0
+2026-01-01,Mesa South,Oil (bbl),14089.0,13969.0
+2026-02-01,Mesa South,Oil (bbl),16950.0,16995.0
+2026-03-01,Mesa South,Oil (bbl),29664.0,29417.0
+2026-04-01,Mesa South,Oil (bbl),22252.0,22842.0
+2026-05-01,Mesa South,Oil (bbl),24591.0,24275.0
+2026-06-01,Mesa South,Oil (bbl),24494.0,24534.0
+2026-07-01,Mesa South,Oil (bbl),23324.0,23528.0
+2026-08-01,Mesa South,Oil (bbl),23642.0,23351.0
+2026-09-01,Mesa South,Oil (bbl),20740.0,20226.0
+2026-10-01,Mesa South,Oil (bbl),21625.0,21528.0
+2025-01-01,Red Creek A,Oil (bbl),21094.0,20990.0
+2025-02-01,Red Creek A,Oil (bbl),17942.0,17861.0
+2025-03-01,Red Creek A,Oil (bbl),19815.0,19630.0
+2025-04-01,Red Creek A,Oil (bbl),18286.0,18159.0
+2025-05-01,Red Creek A,Oil (bbl),17385.0,17575.0
+2025-06-01,Red Creek A,Oil (bbl),16183.0,16180.0
+2025-07-01,Red Creek A,Oil (bbl),16348.0,16269.0
+2025-08-01,Red Creek A,Oil (bbl),16095.0,16240.0
+2025-09-01,Red Creek A,Oil (bbl),15660.0,15762.0
+2025-10-01,Red Creek A,Oil (bbl),15942.0,15993.0
+2025-11-01,Red Creek A,Oil (bbl),14526.0,14753.0
+2025-12-01,Red Creek A,Oil (bbl),13321.0,13381.0
+2026-01-01,Red Creek A,Oil (bbl),14424.0,14939.0
+2026-02-01,Red Creek A,Oil (bbl),10642.0,10601.0
+2026-03-01,Red Creek A,Oil (bbl),13338.0,13325.0
+2026-04-01,Red Creek A,Oil (bbl),11936.0,11863.0
+2026-05-01,Red Creek A,Oil (bbl),13203.0,13056.0
+2026-06-01,Red Creek A,Oil (bbl),12005.0,12063.0
+2026-07-01,Red Creek A,Oil (bbl),12073.0,12212.0
+2026-08-01,Red Creek A,Oil (bbl),12362.0,12150.0
+2026-09-01,Red Creek A,Oil (bbl),11422.0,11469.0
+2026-10-01,Red Creek A,Oil (bbl),11955.0,11823.0
+2025-01-01,Red Creek B,Oil (bbl),23395.0,23514.0
+2025-02-01,Red Creek B,Oil (bbl),19143.0,19020.0
+2025-03-01,Red Creek B,Oil (bbl),20138.0,20250.0
+2025-04-01,Red Creek B,Oil (bbl),17968.0,17824.0
+2025-05-01,Red Creek B,Oil (bbl),18148.0,17982.0
+2025-06-01,Red Creek B,Oil (bbl),17334.0,17014.0
+2025-07-01,Red Creek B,Oil (bbl),18838.0,19000.0
+2025-08-01,Red Creek B,Oil (bbl),18660.0,18532.0
+2025-09-01,Red Creek B,Oil (bbl),17193.0,18740.0
+2025-10-01,Red Creek B,Oil (bbl),16899.0,17164.0
+2025-11-01,Red Creek B,Oil (bbl),15638.0,15485.0
+2025-12-01,Red Creek B,Oil (bbl),14026.0,14114.0
+2026-01-01,Red Creek B,Oil (bbl),15726.0,15647.0
+2026-02-01,Red Creek B,Oil (bbl),17464.0,17575.0
+2026-03-01,Red Creek B,Oil (bbl),26050.0,25998.0
+2026-04-01,Red Creek B,Oil (bbl),24267.0,24548.0
+2026-05-01,Red Creek B,Oil (bbl),26708.0,26573.0
+2026-06-01,Red Creek B,Oil (bbl),23475.0,23570.0
+2026-07-01,Red Creek B,Oil (bbl),24573.0,24671.0
+2026-08-01,Red Creek B,Oil (bbl),22223.0,22188.0
+2026-09-01,Red Creek B,Oil (bbl),22176.0,22287.0
+2026-10-01,Red Creek B,Oil (bbl),22636.0,22662.0
+2025-01-01,Sandhill East,Oil (bbl),18956.0,19010.0
+2025-02-01,Sandhill East,Oil (bbl),16908.0,17390.0
+2025-03-01,Sandhill East,Oil (bbl),18519.0,18338.0
+2025-04-01,Sandhill East,Oil (bbl),16543.0,16483.0
+2025-05-01,Sandhill East,Oil (bbl),16733.0,16737.0
+2025-06-01,Sandhill East,Oil (bbl),15366.0,15259.0
+2025-07-01,Sandhill East,Oil (bbl),15871.0,15609.0
+2025-08-01,Sandhill East,Oil (bbl),15842.0,15506.0
+2025-09-01,Sandhill East,Oil (bbl),14232.0,14456.0
+2025-10-01,Sandhill East,Oil (bbl),14580.0,14623.0
+2025-11-01,Sandhill East,Oil (bbl),14048.0,13816.0
+2025-12-01,Sandhill East,Oil (bbl),13923.0,13740.0
+2026-01-01,Sandhill East,Oil (bbl),12976.0,13208.0
+2026-02-01,Sandhill East,Oil (bbl),11884.0,11759.0
+2026-03-01,Sandhill East,Oil (bbl),13259.0,13105.0
+2026-04-01,Sandhill East,Oil (bbl),12323.0,11386.0
+2026-05-01,Sandhill East,Oil (bbl),11609.0,11457.0
+2026-06-01,Sandhill East,Oil (bbl),11431.0,11387.0
+2026-07-01,Sandhill East,Oil (bbl),11830.0,11978.0
+2026-08-01,Sandhill East,Oil (bbl),11618.0,11712.0
+2026-09-01,Sandhill East,Oil (bbl),11036.0,11018.0
+2026-10-01,Sandhill East,Oil (bbl),11110.0,11172.0
+2025-01-01,Sandhill West,Oil (bbl),16065.0,15791.0
+2025-02-01,Sandhill West,Oil (bbl),13772.0,14082.0
+2025-03-01,Sandhill West,Oil (bbl),14684.0,14472.0
+2025-04-01,Sandhill West,Oil (bbl),13811.0,13692.0
+2025-05-01,Sandhill West,Oil (bbl),13633.0,13659.0
+2025-06-01,Sandhill West,Oil (bbl),13428.0,13364.0
+2025-07-01,Sandhill West,Oil (bbl),13315.0,13366.0
+2025-08-01,Sandhill West,Oil (bbl),11649.0,11576.0
+2025-09-01,Sandhill West,Oil (bbl),12404.0,12303.0
+2025-10-01,Sandhill West,Oil (bbl),12480.0,12369.0
+2025-11-01,Sandhill West,Oil (bbl),11708.0,11572.0
+2025-12-01,Sandhill West,Oil (bbl),9723.0,9909.0
+2026-01-01,Sandhill West,Oil (bbl),9101.0,9200.0
+2026-02-01,Sandhill West,Oil (bbl),21496.0,21425.0
+2026-03-01,Sandhill West,Oil (bbl),29862.0,29505.0
+2026-04-01,Sandhill West,Oil (bbl),26720.0,26938.0
+2026-05-01,Sandhill West,Oil (bbl),23713.0,24106.0
+2026-06-01,Sandhill West,Oil (bbl),25042.0,24925.0
+2026-07-01,Sandhill West,Oil (bbl),24481.0,24267.0
+2026-08-01,Sandhill West,Oil (bbl),23673.0,23773.0
+2026-09-01,Sandhill West,Oil (bbl),19488.0,19785.0
+2026-10-01,Sandhill West,Oil (bbl),21537.0,21449.0
+2025-01-01,Mesa North,Gas (mcf),59718.0,59760.0
+2025-02-01,Mesa North,Gas (mcf),53872.0,54116.0
+2025-03-01,Mesa North,Gas (mcf),55374.0,56875.0
+2025-04-01,Mesa North,Gas (mcf),52963.0,51819.0
+2025-05-01,Mesa North,Gas (mcf),59346.0,58352.0
+2025-06-01,Mesa North,Gas (mcf),56635.0,55769.0
+2025-07-01,Mesa North,Gas (mcf),55437.0,54151.0
+2025-08-01,Mesa North,Gas (mcf),52602.0,52395.0
+2025-09-01,Mesa North,Gas (mcf),53830.0,53231.0
+2025-10-01,Mesa North,Gas (mcf),49199.0,48037.0
+2025-11-01,Mesa North,Gas (mcf),49752.0,47874.0
+2025-12-01,Mesa North,Gas (mcf),49983.0,49993.0
+2026-01-01,Mesa North,Gas (mcf),47988.0,47695.0
+2026-02-01,Mesa North,Gas (mcf),42162.0,41376.0
+2026-03-01,Mesa North,Gas (mcf),46293.0,45710.0
+2026-04-01,Mesa North,Gas (mcf),45657.0,44302.0
+2026-05-01,Mesa North,Gas (mcf),46910.0,45735.0
+2026-06-01,Mesa North,Gas (mcf),45029.0,44527.0
+2026-07-01,Mesa North,Gas (mcf),47904.0,47033.0
+2026-08-01,Mesa North,Gas (mcf),47672.0,47253.0
+2026-09-01,Mesa North,Gas (mcf),44869.0,44261.0
+2026-10-01,Mesa North,Gas (mcf),45014.0,43408.0
+2025-01-01,Mesa South,Gas (mcf),52965.0,53008.0
+2025-02-01,Mesa South,Gas (mcf),44722.0,45225.0
+2025-03-01,Mesa South,Gas (mcf),47417.0,46912.0
+2025-04-01,Mesa South,Gas (mcf),45867.0,44595.0
+2025-05-01,Mesa South,Gas (mcf),45181.0,43246.0
+2025-06-01,Mesa South,Gas (mcf),46232.0,45223.0
+2025-07-01,Mesa South,Gas (mcf),47724.0,46686.0
+2025-08-01,Mesa South,Gas (mcf),39074.0,38393.0
+2025-09-01,Mesa South,Gas (mcf),42152.0,40831.0
+2025-10-01,Mesa South,Gas (mcf),44103.0,43653.0
+2025-11-01,Mesa South,Gas (mcf),37356.0,37752.0
+2025-12-01,Mesa South,Gas (mcf),41788.0,40695.0
+2026-01-01,Mesa South,Gas (mcf),41687.0,39904.0
+2026-02-01,Mesa South,Gas (mcf),44785.0,43167.0
+2026-03-01,Mesa South,Gas (mcf),65875.0,64573.0
+2026-04-01,Mesa South,Gas (mcf),48762.0,49525.0
+2026-05-01,Mesa South,Gas (mcf),56560.0,55261.0
+2026-06-01,Mesa South,Gas (mcf),57785.0,56217.0
+2026-07-01,Mesa South,Gas (mcf),55869.0,56483.0
+2026-08-01,Mesa South,Gas (mcf),57493.0,56492.0
+2026-09-01,Mesa South,Gas (mcf),50101.0,49340.0
+2026-10-01,Mesa South,Gas (mcf),53772.0,52832.0
+2025-01-01,Red Creek A,Gas (mcf),53749.0,52255.0
+2025-02-01,Red Creek A,Gas (mcf),45692.0,44547.0
+2025-03-01,Red Creek A,Gas (mcf),51373.0,49466.0
+2025-04-01,Red Creek A,Gas (mcf),48285.0,47335.0
+2025-05-01,Red Creek A,Gas (mcf),46657.0,46500.0
+2025-06-01,Red Creek A,Gas (mcf),43255.0,41786.0
+2025-07-01,Red Creek A,Gas (mcf),44324.0,42855.0
+2025-08-01,Red Creek A,Gas (mcf),44777.0,44886.0
+2025-09-01,Red Creek A,Gas (mcf),44240.0,43508.0
+2025-10-01,Red Creek A,Gas (mcf),45483.0,45316.0
+2025-11-01,Red Creek A,Gas (mcf),41783.0,41416.0
+2025-12-01,Red Creek A,Gas (mcf),38537.0,37484.0
+2026-01-01,Red Creek A,Gas (mcf),42555.0,43216.0
+2026-02-01,Red Creek A,Gas (mcf),31942.0,30998.0
+2026-03-01,Red Creek A,Gas (mcf),40108.0,38878.0
+2026-04-01,Red Creek A,Gas (mcf),36573.0,36346.0
+2026-05-01,Red Creek A,Gas (mcf),40827.0,39732.0
+2026-06-01,Red Creek A,Gas (mcf),37529.0,36726.0
+2026-07-01,Red Creek A,Gas (mcf),38034.0,37965.0
+2026-08-01,Red Creek A,Gas (mcf),38975.0,37604.0
+2026-09-01,Red Creek A,Gas (mcf),36538.0,36156.0
+2026-10-01,Red Creek A,Gas (mcf),38758.0,37456.0
+2025-01-01,Red Creek B,Gas (mcf),47001.0,45178.0
+2025-02-01,Red Creek B,Gas (mcf),39123.0,38385.0
+2025-03-01,Red Creek B,Gas (mcf),42295.0,42049.0
+2025-04-01,Red Creek B,Gas (mcf),37270.0,35821.0
+2025-05-01,Red Creek B,Gas (mcf),38238.0,37411.0
+2025-06-01,Red Creek B,Gas (mcf),38351.0,37159.0
+2025-07-01,Red Creek B,Gas (mcf),41347.0,41379.0
+2025-08-01,Red Creek B,Gas (mcf),41221.0,40391.0
+2025-09-01,Red Creek B,Gas (mcf),38640.0,37805.0
+2025-10-01,Red Creek B,Gas (mcf),38779.0,38026.0
+2025-11-01,Red Creek B,Gas (mcf),35948.0,35414.0
+2025-12-01,Red Creek B,Gas (mcf),33223.0,33033.0
+2026-01-01,Red Creek B,Gas (mcf),37220.0,36569.0
+2026-02-01,Red Creek B,Gas (mcf),38787.0,38920.0
+2026-03-01,Red Creek B,Gas (mcf),55403.0,54123.0
+2026-04-01,Red Creek B,Gas (mcf),52174.0,51944.0
+2026-05-01,Red Creek B,Gas (mcf),58498.0,57060.0
+2026-06-01,Red Creek B,Gas (mcf),52967.0,52454.0
+2026-07-01,Red Creek B,Gas (mcf),55857.0,54765.0
+2026-08-01,Red Creek B,Gas (mcf),51574.0,49637.0
+2026-09-01,Red Creek B,Gas (mcf),51667.0,49953.0
+2026-10-01,Red Creek B,Gas (mcf),53700.0,54060.0
+2025-01-01,Sandhill East,Gas (mcf),41175.0,40578.0
+2025-02-01,Sandhill East,Gas (mcf),37161.0,36651.0
+2025-03-01,Sandhill East,Gas (mcf),40955.0,40443.0
+2025-04-01,Sandhill East,Gas (mcf),36799.0,36389.0
+2025-05-01,Sandhill East,Gas (mcf),38160.0,37754.0
+2025-06-01,Sandhill East,Gas (mcf),35263.0,33914.0
+2025-07-01,Sandhill East,Gas (mcf),36711.0,35747.0
+2025-08-01,Sandhill East,Gas (mcf),36697.0,36020.0
+2025-09-01,Sandhill East,Gas (mcf),33871.0,33548.0
+2025-10-01,Sandhill East,Gas (mcf),34887.0,34306.0
+2025-11-01,Sandhill East,Gas (mcf),33997.0,32620.0
+2025-12-01,Sandhill East,Gas (mcf),33962.0,33001.0
+2026-01-01,Sandhill East,Gas (mcf),32248.0,32020.0
+2026-02-01,Sandhill East,Gas (mcf),29784.0,29296.0
+2026-03-01,Sandhill East,Gas (mcf),33324.0,32624.0
+2026-04-01,Sandhill East,Gas (mcf),31186.0,31077.0
+2026-05-01,Sandhill East,Gas (mcf),29676.0,29433.0
+2026-06-01,Sandhill East,Gas (mcf),29757.0,29583.0
+2026-07-01,Sandhill East,Gas (mcf),30895.0,30725.0
+2026-08-01,Sandhill East,Gas (mcf),30773.0,30231.0
+2026-09-01,Sandhill East,Gas (mcf),29474.0,28981.0
+2026-10-01,Sandhill East,Gas (mcf),29980.0,30133.0
+2025-01-01,Sandhill West,Gas (mcf),39790.0,39012.0
+2025-02-01,Sandhill West,Gas (mcf),33978.0,33608.0
+2025-03-01,Sandhill West,Gas (mcf),37080.0,36064.0
+2025-04-01,Sandhill West,Gas (mcf),35272.0,33757.0
+2025-05-01,Sandhill West,Gas (mcf),35325.0,34714.0
+2025-06-01,Sandhill West,Gas (mcf),35135.0,34866.0
+2025-07-01,Sandhill West,Gas (mcf),35294.0,34421.0
+2025-08-01,Sandhill West,Gas (mcf),31483.0,30704.0
+2025-09-01,Sandhill West,Gas (mcf),33703.0,32926.0
+2025-10-01,Sandhill West,Gas (mcf),33960.0,32796.0
+2025-11-01,Sandhill West,Gas (mcf),32576.0,31494.0
+2025-12-01,Sandhill West,Gas (mcf),26988.0,26914.0
+2026-01-01,Sandhill West,Gas (mcf),26072.0,25444.0
+2026-02-01,Sandhill West,Gas (mcf),50627.0,49209.0
+2026-03-01,Sandhill West,Gas (mcf),67420.0,66466.0
+2026-04-01,Sandhill West,Gas (mcf),61492.0,60732.0
+2026-05-01,Sandhill West,Gas (mcf),56396.0,55749.0
+2026-06-01,Sandhill West,Gas (mcf),60015.0,58631.0
+2026-07-01,Sandhill West,Gas (mcf),59174.0,57296.0
+2026-08-01,Sandhill West,Gas (mcf),58363.0,56735.0
+2026-09-01,Sandhill West,Gas (mcf),49152.0,49123.0
+2026-10-01,Sandhill West,Gas (mcf),54789.0,53806.0

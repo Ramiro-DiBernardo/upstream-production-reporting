@@ -1,0 +1,616 @@
+month_start,lease,category,amount_usd
+2025-01-01,Mesa North,Labor & supervision,18487.02
+2025-01-01,Mesa North,Power & fuel,32306.38
+2025-01-01,Mesa North,Chemicals,12066.64
+2025-01-01,Mesa North,Water disposal,22322.45
+2025-01-01,Mesa North,Repairs & workovers,110436.35
+2025-02-01,Mesa North,Labor & supervision,17482.15
+2025-02-01,Mesa North,Power & fuel,29433.66
+2025-02-01,Mesa North,Chemicals,10895.68
+2025-02-01,Mesa North,Water disposal,20556.06
+2025-02-01,Mesa North,Repairs & workovers,21801.42
+2025-03-01,Mesa North,Labor & supervision,18228.16
+2025-03-01,Mesa North,Power & fuel,29517.62
+2025-03-01,Mesa North,Chemicals,11392.15
+2025-03-01,Mesa North,Water disposal,20660.98
+2025-03-01,Mesa North,Repairs & workovers,37584.77
+2025-04-01,Mesa North,Labor & supervision,18384.09
+2025-04-01,Mesa North,Power & fuel,29276.66
+2025-04-01,Mesa North,Chemicals,11426.69
+2025-04-01,Mesa North,Water disposal,19695.56
+2025-04-01,Mesa North,Repairs & workovers,46117.43
+2025-05-01,Mesa North,Labor & supervision,18404.17
+2025-05-01,Mesa North,Power & fuel,31616.12
+2025-05-01,Mesa North,Chemicals,12806.31
+2025-05-01,Mesa North,Water disposal,23242.26
+2025-05-01,Mesa North,Repairs & workovers,5044.25
+2025-06-01,Mesa North,Labor & supervision,17343.14
+2025-06-01,Mesa North,Power & fuel,30959.28
+2025-06-01,Mesa North,Chemicals,13189.37
+2025-06-01,Mesa North,Water disposal,20883.58
+2025-07-01,Mesa North,Labor & supervision,18791.28
+2025-07-01,Mesa North,Power & fuel,30573.78
+2025-07-01,Mesa North,Chemicals,11253.58
+2025-07-01,Mesa North,Water disposal,22351.23
+2025-07-01,Mesa North,Repairs & workovers,35335.35
+2025-08-01,Mesa North,Labor & supervision,19488.28
+2025-08-01,Mesa North,Power & fuel,28928.99
+2025-08-01,Mesa North,Chemicals,10965.8
+2025-08-01,Mesa North,Water disposal,20530.21
+2025-09-01,Mesa North,Labor & supervision,18225.34
+2025-09-01,Mesa North,Power & fuel,28470.55
+2025-09-01,Mesa North,Chemicals,11137.8
+2025-09-01,Mesa North,Water disposal,21612.12
+2025-10-01,Mesa North,Labor & supervision,17963.04
+2025-10-01,Mesa North,Power & fuel,27977.43
+2025-10-01,Mesa North,Chemicals,10706.9
+2025-10-01,Mesa North,Water disposal,19550.61
+2025-10-01,Mesa North,Repairs & workovers,79692.87
+2025-11-01,Mesa North,Labor & supervision,16931.68
+2025-11-01,Mesa North,Power & fuel,28088.3
+2025-11-01,Mesa North,Chemicals,9882.66
+2025-11-01,Mesa North,Water disposal,19834.95
+2025-11-01,Mesa North,Repairs & workovers,33072.42
+2025-12-01,Mesa North,Labor & supervision,17680.26
+2025-12-01,Mesa North,Power & fuel,26637.55
+2025-12-01,Mesa North,Chemicals,9942.09
+2025-12-01,Mesa North,Water disposal,20890.32
+2025-12-01,Mesa North,Repairs & workovers,11944.79
+2026-01-01,Mesa North,Labor & supervision,18188.67
+2026-01-01,Mesa North,Power & fuel,27172.69
+2026-01-01,Mesa North,Chemicals,10906.68
+2026-01-01,Mesa North,Water disposal,20235.1
+2026-01-01,Mesa North,Repairs & workovers,36113.03
+2026-02-01,Mesa North,Labor & supervision,18727.37
+2026-02-01,Mesa North,Power & fuel,23404.85
+2026-02-01,Mesa North,Chemicals,9225.29
+2026-02-01,Mesa North,Water disposal,17017.48
+2026-02-01,Mesa North,Repairs & workovers,138509.03
+2026-03-01,Mesa North,Labor & supervision,19289.19
+2026-03-01,Mesa North,Power & fuel,25106.79
+2026-03-01,Mesa North,Chemicals,10146.67
+2026-03-01,Mesa North,Water disposal,18963.8
+2026-03-01,Mesa North,Repairs & workovers,79547.47
+2026-04-01,Mesa North,Labor & supervision,17767.6
+2026-04-01,Mesa North,Power & fuel,25866.65
+2026-04-01,Mesa North,Chemicals,10778.99
+2026-04-01,Mesa North,Water disposal,19196.14
+2026-04-01,Mesa North,Repairs & workovers,4272.25
+2026-05-01,Mesa North,Labor & supervision,18836.96
+2026-05-01,Mesa North,Power & fuel,25835.38
+2026-05-01,Mesa North,Chemicals,10567.63
+2026-05-01,Mesa North,Water disposal,22029.34
+2026-05-01,Mesa North,Repairs & workovers,71124.27
+2026-06-01,Mesa North,Labor & supervision,18626.25
+2026-06-01,Mesa North,Power & fuel,26062.13
+2026-06-01,Mesa North,Chemicals,10320.03
+2026-06-01,Mesa North,Water disposal,19274.77
+2026-06-01,Mesa North,Repairs & workovers,14537.53
+2026-07-01,Mesa North,Labor & supervision,17108.01
+2026-07-01,Mesa North,Power & fuel,25059.51
+2026-07-01,Mesa North,Chemicals,9453.31
+2026-07-01,Mesa North,Water disposal,22397.48
+2026-08-01,Mesa North,Labor & supervision,18507.23
+2026-08-01,Mesa North,Power & fuel,28300.1
+2026-08-01,Mesa North,Chemicals,9530.02
+2026-08-01,Mesa North,Water disposal,21198.22
+2026-08-01,Mesa North,Repairs & workovers,8188.08
+2026-09-01,Mesa North,Labor & supervision,17873.79
+2026-09-01,Mesa North,Power & fuel,25159.08
+2026-09-01,Mesa North,Chemicals,10028.14
+2026-09-01,Mesa North,Water disposal,20652.71
+2026-10-01,Mesa North,Labor & supervision,19089.85
+2026-10-01,Mesa North,Power & fuel,25123.92
+2026-10-01,Mesa North,Chemicals,10653.98
+2026-10-01,Mesa North,Water disposal,20984.35
+2026-10-01,Mesa North,Repairs & workovers,28808.82
+2025-01-01,Mesa South,Labor & supervision,13806.71
+2025-01-01,Mesa South,Power & fuel,19429.06
+2025-01-01,Mesa South,Chemicals,10280.73
+2025-01-01,Mesa South,Water disposal,13272.96
+2025-02-01,Mesa South,Labor & supervision,13854.36
+2025-02-01,Mesa South,Power & fuel,19151.05
+2025-02-01,Mesa South,Chemicals,7336.57
+2025-02-01,Mesa South,Water disposal,11553.33
+2025-02-01,Mesa South,Repairs & workovers,48290.75
+2025-03-01,Mesa South,Labor & supervision,14259.75
+2025-03-01,Mesa South,Power & fuel,17837.85
+2025-03-01,Mesa South,Chemicals,6204.19
+2025-03-01,Mesa South,Water disposal,11813.62
+2025-04-01,Mesa South,Labor & supervision,14734.14
+2025-04-01,Mesa South,Power & fuel,17353.65
+2025-04-01,Mesa South,Chemicals,6459.21
+2025-04-01,Mesa South,Water disposal,11892.13
+2025-04-01,Mesa South,Repairs & workovers,28561.46
+2025-05-01,Mesa South,Labor & supervision,14466.21
+2025-05-01,Mesa South,Power & fuel,18246.22
+2025-05-01,Mesa South,Chemicals,6962.69
+2025-05-01,Mesa South,Water disposal,10937.1
+2025-05-01,Mesa South,Repairs & workovers,55622.66
+2025-06-01,Mesa South,Labor & supervision,15787.82
+2025-06-01,Mesa South,Power & fuel,17017.98
+2025-06-01,Mesa South,Chemicals,8431.6
+2025-06-01,Mesa South,Water disposal,12428.26
+2025-06-01,Mesa South,Repairs & workovers,6462.09
+2025-07-01,Mesa South,Labor & supervision,14633.28
+2025-07-01,Mesa South,Power & fuel,19600.49
+2025-07-01,Mesa South,Chemicals,7503.61
+2025-07-01,Mesa South,Water disposal,12481.81
+2025-07-01,Mesa South,Repairs & workovers,7036.76
+2025-08-01,Mesa South,Labor & supervision,14039.89
+2025-08-01,Mesa South,Power & fuel,13607.44
+2025-08-01,Mesa South,Chemicals,5447.59
+2025-08-01,Mesa South,Water disposal,9704.32
+2025-08-01,Mesa South,Repairs & workovers,72633.38
+2025-09-01,Mesa South,Labor & supervision,14493.69
+2025-09-01,Mesa South,Power & fuel,15541.77
+2025-09-01,Mesa South,Chemicals,5497.83
+2025-09-01,Mesa South,Water disposal,11564.76
+2025-09-01,Mesa South,Repairs & workovers,44680.26
+2025-10-01,Mesa South,Labor & supervision,13619.18
+2025-10-01,Mesa South,Power & fuel,19147.26
+2025-10-01,Mesa South,Chemicals,7537.93
+2025-10-01,Mesa South,Water disposal,11888.81
+2025-11-01,Mesa South,Labor & supervision,14563.4
+2025-11-01,Mesa South,Power & fuel,14468.25
+2025-11-01,Mesa South,Chemicals,5469.51
+2025-11-01,Mesa South,Water disposal,10440.78
+2025-11-01,Mesa South,Repairs & workovers,52189.65
+2025-12-01,Mesa South,Labor & supervision,14785.44
+2025-12-01,Mesa South,Power & fuel,15646.5
+2025-12-01,Mesa South,Chemicals,6567.71
+2025-12-01,Mesa South,Water disposal,12345.77
+2025-12-01,Mesa South,Repairs & workovers,34900.76
+2026-01-01,Mesa South,Labor & supervision,13977.89
+2026-01-01,Mesa South,Power & fuel,16391.93
+2026-01-01,Mesa South,Chemicals,6818.9
+2026-01-01,Mesa South,Water disposal,11107.85
+2026-01-01,Mesa South,Repairs & workovers,27797.78
+2026-02-01,Mesa South,Labor & supervision,18674.71
+2026-02-01,Mesa South,Power & fuel,17524.61
+2026-02-01,Mesa South,Chemicals,6602.08
+2026-02-01,Mesa South,Water disposal,13169.79
+2026-03-01,Mesa South,Labor & supervision,18483.85
+2026-03-01,Mesa South,Power & fuel,27142.31
+2026-03-01,Mesa South,Chemicals,11894.86
+2026-03-01,Mesa South,Water disposal,18342.39
+2026-04-01,Mesa South,Labor & supervision,18855.33
+2026-04-01,Mesa South,Power & fuel,22042.05
+2026-04-01,Mesa South,Chemicals,9072.54
+2026-04-01,Mesa South,Water disposal,12810.67
+2026-04-01,Mesa South,Repairs & workovers,183046.68
+2026-05-01,Mesa South,Labor & supervision,17856.19
+2026-05-01,Mesa South,Power & fuel,22679.94
+2026-05-01,Mesa South,Chemicals,9084.89
+2026-05-01,Mesa South,Water disposal,14506.27
+2026-05-01,Mesa South,Repairs & workovers,151955.13
+2026-06-01,Mesa South,Labor & supervision,18895.94
+2026-06-01,Mesa South,Power & fuel,23939.21
+2026-06-01,Mesa South,Chemicals,10050.43
+2026-06-01,Mesa South,Water disposal,15674.13
+2026-07-01,Mesa South,Labor & supervision,18829.19
+2026-07-01,Mesa South,Power & fuel,22098.1
+2026-07-01,Mesa South,Chemicals,8967.76
+2026-07-01,Mesa South,Water disposal,15245.79
+2026-07-01,Mesa South,Repairs & workovers,147603.02
+2026-08-01,Mesa South,Labor & supervision,18369.8
+2026-08-01,Mesa South,Power & fuel,24221.48
+2026-08-01,Mesa South,Chemicals,9962.18
+2026-08-01,Mesa South,Water disposal,14924.22
+2026-08-01,Mesa South,Repairs & workovers,8176.03
+2026-09-01,Mesa South,Labor & supervision,18478.89
+2026-09-01,Mesa South,Power & fuel,18921.73
+2026-09-01,Mesa South,Chemicals,8599.32
+2026-09-01,Mesa South,Water disposal,13847.16
+2026-09-01,Mesa South,Repairs & workovers,35547.15
+2026-10-01,Mesa South,Labor & supervision,18538.34
+2026-10-01,Mesa South,Power & fuel,21431.58
+2026-10-01,Mesa South,Chemicals,9548.2
+2026-10-01,Mesa South,Water disposal,15200.91
+2026-10-01,Mesa South,Repairs & workovers,66216.65
+2025-01-01,Red Creek A,Labor & supervision,17872.66
+2025-01-01,Red Creek A,Power & fuel,19286.59
+2025-01-01,Red Creek A,Chemicals,9187.09
+2025-01-01,Red Creek A,Water disposal,12308.51
+2025-02-01,Red Creek A,Labor & supervision,17802.74
+2025-02-01,Red Creek A,Power & fuel,17350.26
+2025-02-01,Red Creek A,Chemicals,6653.75
+2025-02-01,Red Creek A,Water disposal,10482.51
+2025-02-01,Red Creek A,Repairs & workovers,32271.62
+2025-03-01,Red Creek A,Labor & supervision,18758.97
+2025-03-01,Red Creek A,Power & fuel,18232.78
+2025-03-01,Red Creek A,Chemicals,7484.65
+2025-03-01,Red Creek A,Water disposal,12108.82
+2025-03-01,Red Creek A,Repairs & workovers,39061.18
+2025-04-01,Red Creek A,Labor & supervision,18333.16
+2025-04-01,Red Creek A,Power & fuel,17940.39
+2025-04-01,Red Creek A,Chemicals,7831.69
+2025-04-01,Red Creek A,Water disposal,11680.35
+2025-05-01,Red Creek A,Labor & supervision,18921.21
+2025-05-01,Red Creek A,Power & fuel,19597.52
+2025-05-01,Red Creek A,Chemicals,8206.63
+2025-05-01,Red Creek A,Water disposal,11495.17
+2025-05-01,Red Creek A,Repairs & workovers,8887.8
+2025-06-01,Red Creek A,Labor & supervision,19001.69
+2025-06-01,Red Creek A,Power & fuel,17305.64
+2025-06-01,Red Creek A,Chemicals,6382.83
+2025-06-01,Red Creek A,Water disposal,10541.94
+2025-06-01,Red Creek A,Repairs & workovers,34664.46
+2025-07-01,Red Creek A,Labor & supervision,18528.35
+2025-07-01,Red Creek A,Power & fuel,17538.09
+2025-07-01,Red Creek A,Chemicals,6941.03
+2025-07-01,Red Creek A,Water disposal,10788.66
+2025-07-01,Red Creek A,Repairs & workovers,64134.87
+2025-08-01,Red Creek A,Labor & supervision,18370.76
+2025-08-01,Red Creek A,Power & fuel,16245.59
+2025-08-01,Red Creek A,Chemicals,6494.47
+2025-08-01,Red Creek A,Water disposal,11962.18
+2025-09-01,Red Creek A,Labor & supervision,18495.48
+2025-09-01,Red Creek A,Power & fuel,18065.61
+2025-09-01,Red Creek A,Chemicals,6539.71
+2025-09-01,Red Creek A,Water disposal,11691.93
+2025-10-01,Red Creek A,Labor & supervision,18408.38
+2025-10-01,Red Creek A,Power & fuel,17262.93
+2025-10-01,Red Creek A,Chemicals,7248.28
+2025-10-01,Red Creek A,Water disposal,12620.76
+2025-10-01,Red Creek A,Repairs & workovers,4353.62
+2025-11-01,Red Creek A,Labor & supervision,18723.6
+2025-11-01,Red Creek A,Power & fuel,15134.96
+2025-11-01,Red Creek A,Chemicals,6472.58
+2025-11-01,Red Creek A,Water disposal,11623.74
+2025-11-01,Red Creek A,Repairs & workovers,6022.19
+2025-12-01,Red Creek A,Labor & supervision,18198.61
+2025-12-01,Red Creek A,Power & fuel,13857.67
+2025-12-01,Red Creek A,Chemicals,5686.96
+2025-12-01,Red Creek A,Water disposal,9839.18
+2025-12-01,Red Creek A,Repairs & workovers,22457.04
+2026-01-01,Red Creek A,Labor & supervision,18060.65
+2026-01-01,Red Creek A,Power & fuel,16477.18
+2026-01-01,Red Creek A,Chemicals,6163.03
+2026-01-01,Red Creek A,Water disposal,12305.48
+2026-02-01,Red Creek A,Labor & supervision,18161.85
+2026-02-01,Red Creek A,Power & fuel,12280.56
+2026-02-01,Red Creek A,Chemicals,4872.92
+2026-02-01,Red Creek A,Water disposal,8397.21
+2026-02-01,Red Creek A,Repairs & workovers,237523.16
+2026-03-01,Red Creek A,Labor & supervision,18217.4
+2026-03-01,Red Creek A,Power & fuel,14839.23
+2026-03-01,Red Creek A,Chemicals,5616.11
+2026-03-01,Red Creek A,Water disposal,11775.3
+2026-03-01,Red Creek A,Repairs & workovers,132678.69
+2026-04-01,Red Creek A,Labor & supervision,18142.28
+2026-04-01,Red Creek A,Power & fuel,13849.4
+2026-04-01,Red Creek A,Chemicals,5823.15
+2026-04-01,Red Creek A,Water disposal,10364.25
+2026-05-01,Red Creek A,Labor & supervision,18457.95
+2026-05-01,Red Creek A,Power & fuel,14580.76
+2026-05-01,Red Creek A,Chemicals,5720.74
+2026-05-01,Red Creek A,Water disposal,11670.5
+2026-06-01,Red Creek A,Labor & supervision,18151.25
+2026-06-01,Red Creek A,Power & fuel,15779.84
+2026-06-01,Red Creek A,Chemicals,6510.0
+2026-06-01,Red Creek A,Water disposal,11393.97
+2026-06-01,Red Creek A,Repairs & workovers,39331.74
+2026-07-01,Red Creek A,Labor & supervision,18204.18
+2026-07-01,Red Creek A,Power & fuel,14362.21
+2026-07-01,Red Creek A,Chemicals,5861.53
+2026-07-01,Red Creek A,Water disposal,11992.9
+2026-07-01,Red Creek A,Repairs & workovers,29887.59
+2026-08-01,Red Creek A,Labor & supervision,18590.34
+2026-08-01,Red Creek A,Power & fuel,14794.13
+2026-08-01,Red Creek A,Chemicals,6401.14
+2026-08-01,Red Creek A,Water disposal,12051.56
+2026-08-01,Red Creek A,Repairs & workovers,24911.19
+2026-09-01,Red Creek A,Labor & supervision,18849.25
+2026-09-01,Red Creek A,Power & fuel,14584.52
+2026-09-01,Red Creek A,Chemicals,5639.47
+2026-09-01,Red Creek A,Water disposal,11247.13
+2026-10-01,Red Creek A,Labor & supervision,18606.85
+2026-10-01,Red Creek A,Power & fuel,16679.56
+2026-10-01,Red Creek A,Chemicals,5489.88
+2026-10-01,Red Creek A,Water disposal,12447.51
+2025-01-01,Red Creek B,Labor & supervision,14448.93
+2025-01-01,Red Creek B,Power & fuel,24807.81
+2025-01-01,Red Creek B,Chemicals,10634.5
+2025-01-01,Red Creek B,Water disposal,16931.29
+2025-02-01,Red Creek B,Labor & supervision,14464.78
+2025-02-01,Red Creek B,Power & fuel,22334.05
+2025-02-01,Red Creek B,Chemicals,9416.37
+2025-02-01,Red Creek B,Water disposal,16125.82
+2025-03-01,Red Creek B,Labor & supervision,14288.63
+2025-03-01,Red Creek B,Power & fuel,23152.49
+2025-03-01,Red Creek B,Chemicals,10021.28
+2025-03-01,Red Creek B,Water disposal,17261.44
+2025-03-01,Red Creek B,Repairs & workovers,44258.79
+2025-04-01,Red Creek B,Labor & supervision,14372.52
+2025-04-01,Red Creek B,Power & fuel,19653.06
+2025-04-01,Red Creek B,Chemicals,7882.89
+2025-04-01,Red Creek B,Water disposal,14166.61
+2025-04-01,Red Creek B,Repairs & workovers,82502.46
+2025-05-01,Red Creek B,Labor & supervision,14026.82
+2025-05-01,Red Creek B,Power & fuel,21480.15
+2025-05-01,Red Creek B,Chemicals,7866.8
+2025-05-01,Red Creek B,Water disposal,14963.89
+2025-05-01,Red Creek B,Repairs & workovers,35390.1
+2025-06-01,Red Creek B,Labor & supervision,14315.69
+2025-06-01,Red Creek B,Power & fuel,19921.22
+2025-06-01,Red Creek B,Chemicals,8928.91
+2025-06-01,Red Creek B,Water disposal,15593.23
+2025-06-01,Red Creek B,Repairs & workovers,39522.83
+2025-07-01,Red Creek B,Labor & supervision,14295.71
+2025-07-01,Red Creek B,Power & fuel,23052.12
+2025-07-01,Red Creek B,Chemicals,9782.52
+2025-07-01,Red Creek B,Water disposal,18681.82
+2025-08-01,Red Creek B,Labor & supervision,14581.92
+2025-08-01,Red Creek B,Power & fuel,23156.68
+2025-08-01,Red Creek B,Chemicals,8907.58
+2025-08-01,Red Creek B,Water disposal,17347.06
+2025-09-01,Red Creek B,Labor & supervision,13829.03
+2025-09-01,Red Creek B,Power & fuel,21747.16
+2025-09-01,Red Creek B,Chemicals,8606.81
+2025-09-01,Red Creek B,Water disposal,16448.9
+2025-10-01,Red Creek B,Labor & supervision,14768.95
+2025-10-01,Red Creek B,Power & fuel,22051.49
+2025-10-01,Red Creek B,Chemicals,9175.0
+2025-10-01,Red Creek B,Water disposal,16456.43
+2025-11-01,Red Creek B,Labor & supervision,14088.09
+2025-11-01,Red Creek B,Power & fuel,19651.73
+2025-11-01,Red Creek B,Chemicals,8093.6
+2025-11-01,Red Creek B,Water disposal,15742.32
+2025-11-01,Red Creek B,Repairs & workovers,71190.26
+2025-12-01,Red Creek B,Labor & supervision,14344.16
+2025-12-01,Red Creek B,Power & fuel,18062.59
+2025-12-01,Red Creek B,Chemicals,6914.09
+2025-12-01,Red Creek B,Water disposal,15654.78
+2026-01-01,Red Creek B,Labor & supervision,14029.11
+2026-01-01,Red Creek B,Power & fuel,21276.91
+2026-01-01,Red Creek B,Chemicals,8904.06
+2026-01-01,Red Creek B,Water disposal,15779.2
+2026-02-01,Red Creek B,Labor & supervision,18936.9
+2026-02-01,Red Creek B,Power & fuel,21790.67
+2026-02-01,Red Creek B,Chemicals,7275.36
+2026-02-01,Red Creek B,Water disposal,16842.5
+2026-02-01,Red Creek B,Repairs & workovers,4244.9
+2026-03-01,Red Creek B,Labor & supervision,18960.01
+2026-03-01,Red Creek B,Power & fuel,29690.59
+2026-03-01,Red Creek B,Chemicals,10361.73
+2026-03-01,Red Creek B,Water disposal,22430.39
+2026-03-01,Red Creek B,Repairs & workovers,145062.9
+2026-04-01,Red Creek B,Labor & supervision,18723.89
+2026-04-01,Red Creek B,Power & fuel,26774.58
+2026-04-01,Red Creek B,Chemicals,12051.94
+2026-04-01,Red Creek B,Water disposal,22618.34
+2026-04-01,Red Creek B,Repairs & workovers,193728.57
+2026-05-01,Red Creek B,Labor & supervision,17766.52
+2026-05-01,Red Creek B,Power & fuel,31688.83
+2026-05-01,Red Creek B,Chemicals,13263.49
+2026-05-01,Red Creek B,Water disposal,24577.12
+2026-06-01,Red Creek B,Labor & supervision,18390.19
+2026-06-01,Red Creek B,Power & fuel,29535.79
+2026-06-01,Red Creek B,Chemicals,11862.89
+2026-06-01,Red Creek B,Water disposal,22909.51
+2026-06-01,Red Creek B,Repairs & workovers,92910.26
+2026-07-01,Red Creek B,Labor & supervision,18821.59
+2026-07-01,Red Creek B,Power & fuel,31703.02
+2026-07-01,Red Creek B,Chemicals,12225.5
+2026-07-01,Red Creek B,Water disposal,24527.64
+2026-07-01,Red Creek B,Repairs & workovers,38878.53
+2026-08-01,Red Creek B,Labor & supervision,17506.24
+2026-08-01,Red Creek B,Power & fuel,27990.47
+2026-08-01,Red Creek B,Chemicals,11093.26
+2026-08-01,Red Creek B,Water disposal,22003.13
+2026-08-01,Red Creek B,Repairs & workovers,148976.34
+2026-09-01,Red Creek B,Labor & supervision,17937.31
+2026-09-01,Red Creek B,Power & fuel,31558.53
+2026-09-01,Red Creek B,Chemicals,11748.5
+2026-09-01,Red Creek B,Water disposal,23912.15
+2026-09-01,Red Creek B,Repairs & workovers,13497.17
+2026-10-01,Red Creek B,Labor & supervision,17441.52
+2026-10-01,Red Creek B,Power & fuel,29730.38
+2026-10-01,Red Creek B,Chemicals,12481.02
+2026-10-01,Red Creek B,Water disposal,25384.75
+2026-10-01,Red Creek B,Repairs & workovers,42526.82
+2025-01-01,Sandhill East,Labor & supervision,17330.43
+2025-01-01,Sandhill East,Power & fuel,17274.89
+2025-01-01,Sandhill East,Chemicals,7156.89
+2025-01-01,Sandhill East,Water disposal,10858.23
+2025-01-01,Sandhill East,Repairs & workovers,4857.06
+2025-02-01,Sandhill East,Labor & supervision,19062.17
+2025-02-01,Sandhill East,Power & fuel,16059.98
+2025-02-01,Sandhill East,Chemicals,6867.29
+2025-02-01,Sandhill East,Water disposal,10715.67
+2025-03-01,Sandhill East,Labor & supervision,18795.17
+2025-03-01,Sandhill East,Power & fuel,17225.75
+2025-03-01,Sandhill East,Chemicals,6678.76
+2025-03-01,Sandhill East,Water disposal,11567.76
+2025-03-01,Sandhill East,Repairs & workovers,3464.76
+2025-04-01,Sandhill East,Labor & supervision,18761.82
+2025-04-01,Sandhill East,Power & fuel,14548.36
+2025-04-01,Sandhill East,Chemicals,6544.63
+2025-04-01,Sandhill East,Water disposal,10285.92
+2025-04-01,Sandhill East,Repairs & workovers,77894.97
+2025-05-01,Sandhill East,Labor & supervision,18598.37
+2025-05-01,Sandhill East,Power & fuel,15480.79
+2025-05-01,Sandhill East,Chemicals,6683.87
+2025-05-01,Sandhill East,Water disposal,10931.78
+2025-05-01,Sandhill East,Repairs & workovers,32065.85
+2025-06-01,Sandhill East,Labor & supervision,18192.17
+2025-06-01,Sandhill East,Power & fuel,14201.75
+2025-06-01,Sandhill East,Chemicals,5713.76
+2025-06-01,Sandhill East,Water disposal,10568.27
+2025-06-01,Sandhill East,Repairs & workovers,12947.74
+2025-07-01,Sandhill East,Labor & supervision,17597.49
+2025-07-01,Sandhill East,Power & fuel,15324.61
+2025-07-01,Sandhill East,Chemicals,5399.8
+2025-07-01,Sandhill East,Water disposal,11051.75
+2025-07-01,Sandhill East,Repairs & workovers,34724.01
+2025-08-01,Sandhill East,Labor & supervision,17177.71
+2025-08-01,Sandhill East,Power & fuel,17899.53
+2025-08-01,Sandhill East,Chemicals,7181.84
+2025-08-01,Sandhill East,Water disposal,10766.25
+2025-08-01,Sandhill East,Repairs & workovers,12288.23
+2025-09-01,Sandhill East,Labor & supervision,19355.45
+2025-09-01,Sandhill East,Power & fuel,15057.71
+2025-09-01,Sandhill East,Chemicals,6651.35
+2025-09-01,Sandhill East,Water disposal,10344.98
+2025-09-01,Sandhill East,Repairs & workovers,55276.64
+2025-10-01,Sandhill East,Labor & supervision,17465.63
+2025-10-01,Sandhill East,Power & fuel,16264.23
+2025-10-01,Sandhill East,Chemicals,5593.49
+2025-10-01,Sandhill East,Water disposal,11092.47
+2025-10-01,Sandhill East,Repairs & workovers,3952.24
+2025-11-01,Sandhill East,Labor & supervision,18981.41
+2025-11-01,Sandhill East,Power & fuel,15206.06
+2025-11-01,Sandhill East,Chemicals,6074.12
+2025-11-01,Sandhill East,Water disposal,10641.6
+2025-11-01,Sandhill East,Repairs & workovers,35432.38
+2025-12-01,Sandhill East,Labor & supervision,17333.44
+2025-12-01,Sandhill East,Power & fuel,14423.22
+2025-12-01,Sandhill East,Chemicals,5214.94
+2025-12-01,Sandhill East,Water disposal,10834.31
+2025-12-01,Sandhill East,Repairs & workovers,7946.64
+2026-01-01,Sandhill East,Labor & supervision,17443.2
+2026-01-01,Sandhill East,Power & fuel,14561.63
+2026-01-01,Sandhill East,Chemicals,5384.81
+2026-01-01,Sandhill East,Water disposal,11016.53
+2026-01-01,Sandhill East,Repairs & workovers,45202.94
+2026-02-01,Sandhill East,Labor & supervision,18186.04
+2026-02-01,Sandhill East,Power & fuel,12696.04
+2026-02-01,Sandhill East,Chemicals,5840.16
+2026-02-01,Sandhill East,Water disposal,10037.23
+2026-02-01,Sandhill East,Repairs & workovers,77704.13
+2026-03-01,Sandhill East,Labor & supervision,18031.56
+2026-03-01,Sandhill East,Power & fuel,15686.88
+2026-03-01,Sandhill East,Chemicals,5701.45
+2026-03-01,Sandhill East,Water disposal,11350.82
+2026-03-01,Sandhill East,Repairs & workovers,14832.31
+2026-04-01,Sandhill East,Labor & supervision,18237.4
+2026-04-01,Sandhill East,Power & fuel,13789.53
+2026-04-01,Sandhill East,Chemicals,5496.31
+2026-04-01,Sandhill East,Water disposal,10880.1
+2026-04-01,Sandhill East,Repairs & workovers,3455.7
+2026-05-01,Sandhill East,Labor & supervision,18706.79
+2026-05-01,Sandhill East,Power & fuel,13013.41
+2026-05-01,Sandhill East,Chemicals,5181.25
+2026-05-01,Sandhill East,Water disposal,10052.04
+2026-05-01,Sandhill East,Repairs & workovers,98080.39
+2026-06-01,Sandhill East,Labor & supervision,18748.12
+2026-06-01,Sandhill East,Power & fuel,14017.55
+2026-06-01,Sandhill East,Chemicals,5201.32
+2026-06-01,Sandhill East,Water disposal,10220.6
+2026-07-01,Sandhill East,Labor & supervision,18109.69
+2026-07-01,Sandhill East,Power & fuel,13742.24
+2026-07-01,Sandhill East,Chemicals,5923.52
+2026-07-01,Sandhill East,Water disposal,10671.05
+2026-08-01,Sandhill East,Labor & supervision,18032.04
+2026-08-01,Sandhill East,Power & fuel,13878.68
+2026-08-01,Sandhill East,Chemicals,5606.73
+2026-08-01,Sandhill East,Water disposal,11037.46
+2026-08-01,Sandhill East,Repairs & workovers,35623.71
+2026-09-01,Sandhill East,Labor & supervision,19911.59
+2026-09-01,Sandhill East,Power & fuel,13824.96
+2026-09-01,Sandhill East,Chemicals,5762.35
+2026-09-01,Sandhill East,Water disposal,10652.61
+2026-10-01,Sandhill East,Labor & supervision,17903.9
+2026-10-01,Sandhill East,Power & fuel,12749.93
+2026-10-01,Sandhill East,Chemicals,5394.59
+2026-10-01,Sandhill East,Water disposal,10619.43
+2025-01-01,Sandhill West,Labor & supervision,14702.84
+2025-01-01,Sandhill West,Power & fuel,19071.97
+2025-01-01,Sandhill West,Chemicals,7948.17
+2025-01-01,Sandhill West,Water disposal,14009.92
+2025-02-01,Sandhill West,Labor & supervision,13958.2
+2025-02-01,Sandhill West,Power & fuel,17252.55
+2025-02-01,Sandhill West,Chemicals,6367.87
+2025-02-01,Sandhill West,Water disposal,12868.4
+2025-03-01,Sandhill West,Labor & supervision,14398.91
+2025-03-01,Sandhill West,Power & fuel,16437.26
+2025-03-01,Sandhill West,Chemicals,6703.21
+2025-03-01,Sandhill West,Water disposal,13892.56
+2025-04-01,Sandhill West,Labor & supervision,14870.48
+2025-04-01,Sandhill West,Power & fuel,17262.06
+2025-04-01,Sandhill West,Chemicals,6932.66
+2025-04-01,Sandhill West,Water disposal,13569.22
+2025-04-01,Sandhill West,Repairs & workovers,7698.06
+2025-05-01,Sandhill West,Labor & supervision,14802.41
+2025-05-01,Sandhill West,Power & fuel,15935.94
+2025-05-01,Sandhill West,Chemicals,6417.77
+2025-05-01,Sandhill West,Water disposal,13753.14
+2025-05-01,Sandhill West,Repairs & workovers,7251.86
+2025-06-01,Sandhill West,Labor & supervision,14133.62
+2025-06-01,Sandhill West,Power & fuel,16363.62
+2025-06-01,Sandhill West,Chemicals,6607.43
+2025-06-01,Sandhill West,Water disposal,13806.11
+2025-06-01,Sandhill West,Repairs & workovers,4597.73
+2025-07-01,Sandhill West,Labor & supervision,14305.46
+2025-07-01,Sandhill West,Power & fuel,17295.66
+2025-07-01,Sandhill West,Chemicals,6206.8
+2025-07-01,Sandhill West,Water disposal,14165.58
+2025-08-01,Sandhill West,Labor & supervision,14276.79
+2025-08-01,Sandhill West,Power & fuel,15162.9
+2025-08-01,Sandhill West,Chemicals,5941.09
+2025-08-01,Sandhill West,Water disposal,12255.2
+2025-08-01,Sandhill West,Repairs & workovers,104346.61
+2025-09-01,Sandhill West,Labor & supervision,14439.12
+2025-09-01,Sandhill West,Power & fuel,14952.41
+2025-09-01,Sandhill West,Chemicals,6522.81
+2025-09-01,Sandhill West,Water disposal,13548.77
+2025-10-01,Sandhill West,Labor & supervision,15000.38
+2025-10-01,Sandhill West,Power & fuel,16735.35
+2025-10-01,Sandhill West,Chemicals,6616.24
+2025-10-01,Sandhill West,Water disposal,14515.97
+2025-11-01,Sandhill West,Labor & supervision,13568.35
+2025-11-01,Sandhill West,Power & fuel,16824.78
+2025-11-01,Sandhill West,Chemicals,6913.55
+2025-11-01,Sandhill West,Water disposal,13313.76
+2025-12-01,Sandhill West,Labor & supervision,13881.34
+2025-12-01,Sandhill West,Power & fuel,12816.65
+2025-12-01,Sandhill West,Chemicals,4853.58
+2025-12-01,Sandhill West,Water disposal,11418.07
+2025-12-01,Sandhill West,Repairs & workovers,105662.78
+2026-01-01,Sandhill West,Labor & supervision,14199.01
+2026-01-01,Sandhill West,Power & fuel,13065.51
+2026-01-01,Sandhill West,Chemicals,5055.15
+2026-01-01,Sandhill West,Water disposal,11546.94
+2026-01-01,Sandhill West,Repairs & workovers,111843.36
+2026-02-01,Sandhill West,Labor & supervision,18886.88
+2026-02-01,Sandhill West,Power & fuel,22848.81
+2026-02-01,Sandhill West,Chemicals,9042.04
+2026-02-01,Sandhill West,Water disposal,15729.34
+2026-02-01,Sandhill West,Repairs & workovers,4213.41
+2026-03-01,Sandhill West,Labor & supervision,18107.63
+2026-03-01,Sandhill West,Power & fuel,31818.52
+2026-03-01,Sandhill West,Chemicals,14410.01
+2026-03-01,Sandhill West,Water disposal,19825.78
+2026-04-01,Sandhill West,Labor & supervision,17621.42
+2026-04-01,Sandhill West,Power & fuel,28527.26
+2026-04-01,Sandhill West,Chemicals,9317.49
+2026-04-01,Sandhill West,Water disposal,18207.8
+2026-05-01,Sandhill West,Labor & supervision,18572.37
+2026-05-01,Sandhill West,Power & fuel,25818.55
+2026-05-01,Sandhill West,Chemicals,10614.88
+2026-05-01,Sandhill West,Water disposal,18810.39
+2026-05-01,Sandhill West,Repairs & workovers,33752.59
+2026-06-01,Sandhill West,Labor & supervision,18410.11
+2026-06-01,Sandhill West,Power & fuel,28412.3
+2026-06-01,Sandhill West,Chemicals,10857.4
+2026-06-01,Sandhill West,Water disposal,18971.08
+2026-06-01,Sandhill West,Repairs & workovers,8683.36
+2026-07-01,Sandhill West,Labor & supervision,18720.6
+2026-07-01,Sandhill West,Power & fuel,24444.28
+2026-07-01,Sandhill West,Chemicals,11036.73
+2026-07-01,Sandhill West,Water disposal,19045.47
+2026-08-01,Sandhill West,Labor & supervision,18311.78
+2026-08-01,Sandhill West,Power & fuel,27298.83
+2026-08-01,Sandhill West,Chemicals,12204.04
+2026-08-01,Sandhill West,Water disposal,18481.02
+2026-09-01,Sandhill West,Labor & supervision,18788.13
+2026-09-01,Sandhill West,Power & fuel,22264.01
+2026-09-01,Sandhill West,Chemicals,8499.98
+2026-09-01,Sandhill West,Water disposal,17839.79
+2026-09-01,Sandhill West,Repairs & workovers,30229.57
+2026-10-01,Sandhill West,Labor & supervision,18283.86
+2026-10-01,Sandhill West,Power & fuel,24970.93
+2026-10-01,Sandhill West,Chemicals,10394.03
+2026-10-01,Sandhill West,Water disposal,18544.61
+2026-10-01,Sandhill West,Repairs & workovers,4226.8

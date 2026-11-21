@@ -1,0 +1,104 @@
+/// Daily allocated production per well on a full calendar spine (built in sql/03_marts.sql).
+table Production
+	lineageTag: b4bffaf3-b1d6-4d7e-9b5b-7f9b43db2288
+
+	column ProdDate
+		dataType: dateTime
+		isHidden
+		formatString: yyyy-mm-dd
+		lineageTag: b6374fb5-1d41-4c36-b233-a7fae2c5033b
+		summarizeBy: none
+		sourceColumn: ProdDate
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column WellID
+		dataType: string
+		isHidden
+		lineageTag: e03c1507-1414-4b6c-a5c1-96b0e7500351
+		summarizeBy: none
+		sourceColumn: WellID
+
+	column HoursOn
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 15940977-3d4f-49e4-93ba-35101d852f06
+		summarizeBy: sum
+		sourceColumn: HoursOn
+
+	column OilBbl
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 4dd752fe-7d56-4315-b979-f78a89924f87
+		summarizeBy: sum
+		sourceColumn: OilBbl
+
+	column GasMcf
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 1f72eef6-8680-460c-8c5f-5ebbde41deb0
+		summarizeBy: sum
+		sourceColumn: GasMcf
+
+	column WaterBbl
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 99b1cb90-5c58-4ed3-a844-104b4c7b86fd
+		summarizeBy: sum
+		sourceColumn: WaterBbl
+
+	column BOE
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 97d3e75e-fc8c-4570-9ec7-c87544e58a82
+		summarizeBy: sum
+		sourceColumn: BOE
+
+	column ForecastOilBbl
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 4502e849-7761-4333-9832-06e8f36011c5
+		summarizeBy: sum
+		sourceColumn: ForecastOilBbl
+
+	column ForecastBOE
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 540496d6-1480-4909-b424-c479fefdddfd
+		summarizeBy: sum
+		sourceColumn: ForecastBOE
+
+	column DeferredOilBbl
+		dataType: double
+		isHidden
+		formatString: #,0.0
+		lineageTag: 28b82a76-ff3f-40a9-a67f-32381f13be3b
+		summarizeBy: sum
+		sourceColumn: DeferredOilBbl
+
+	column IsMissing
+		dataType: int64
+		isHidden
+		lineageTag: 2cd79884-e3a7-40c9-a2cf-db46cfb4d5b7
+		summarizeBy: none
+		sourceColumn: IsMissing
+
+	partition Production = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "fact_daily_production.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, Table.ColumnNames(Promoted)),
+				    Renamed = Table.RenameColumns(Blanks, {{"prod_date", "ProdDate"}, {"well_id", "WellID"}, {"hours_on", "HoursOn"}, {"oil_bbl", "OilBbl"}, {"gas_mcf", "GasMcf"}, {"water_bbl", "WaterBbl"}, {"boe", "BOE"}, {"forecast_oil_bbl", "ForecastOilBbl"}, {"forecast_boe", "ForecastBOE"}, {"deferred_oil_bbl", "DeferredOilBbl"}, {"is_missing", "IsMissing"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"ProdDate", type date}, {"WellID", type text}, {"HoursOn", type number}, {"OilBbl", type number}, {"GasMcf", type number}, {"WaterBbl", type number}, {"BOE", type number}, {"ForecastOilBbl", type number}, {"ForecastBOE", type number}, {"DeferredOilBbl", type number}, {"IsMissing", Int64.Type}}, "en-US")
+				in
+				    Typed
+

@@ -1,0 +1,27 @@
+model Model
+	culture: es-AR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-AR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Wells", "Leases", "Production", "Downtime", "LOE", "Sales Recon", "SCADA Hourly", "DQ Issues", "DataFolder"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Wells
+ref table Production
+ref table Downtime
+ref table LOE
+ref table 'Sales Recon'
+ref table 'SCADA Hourly'
+ref table 'DQ Issues'
+ref table Leases
+ref table Date
+ref table _Measures
+
+ref cultureInfo es-AR
+

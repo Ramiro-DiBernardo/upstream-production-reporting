@@ -1,0 +1,426 @@
+/// Home table for all DAX measures.
+table _Measures
+	lineageTag: 0f55126e-42e9-48f5-8d25-d4793c772766
+
+	/// Allocated oil volume.
+	measure 'Oil (bbl)' = SUM(Production[OilBbl])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 1d4dc517-d23a-4086-8438-08ec680c77b3
+
+	/// Allocated gas volume.
+	measure 'Gas (mcf)' = SUM(Production[GasMcf])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 534229e6-bda7-4964-bf11-93c9885f8adc
+
+	/// Produced water.
+	measure 'Water (bbl)' = SUM(Production[WaterBbl])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 3f0e98c1-32e6-438e-88f4-06d3d02ebe2b
+
+	/// Barrels of oil equivalent: oil + gas / 6 (computed in SQL).
+	measure BOE = SUM(Production[BOE])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: de42c342-3692-4cd5-8c73-397bd7d4c09a
+
+	/// Days in the current filter that have at least one producing well.
+	measure 'Calendar Days' = DISTINCTCOUNT(Production[ProdDate])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 885eedd1-8f4b-4768-acfa-a49dd936dd0f
+
+	/// Average daily rate (BOE/d) for the wells in context.
+	measure 'Avg Daily BOE' = DIVIDE([BOE], [Calendar Days])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 08ced62b-c8d8-4c66-8ca3-8e335ffa9a74
+
+	/// Average daily oil rate (bbl/d).
+	measure 'Avg Daily Oil' = DIVIDE([Oil (bbl)], [Calendar Days])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 8a5c94f9-b905-49d7-ba1a-2e4857645ccd
+
+	/// Average daily BOE over the last 7 days of the selected period.
+	measure 'Current Rate (7d BOE/d)' =
+			VAR _last = MAX(Production[ProdDate])
+			RETURN
+			CALCULATE([Avg Daily BOE], DATESINPERIOD('Date'[Date], _last, -7, DAY))
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 136dcf9f-4e5e-4cb9-8fea-7819fb419a2e
+
+	/// Water / total liquids.
+	measure 'Water Cut %' = DIVIDE([Water (bbl)], [Oil (bbl)] + [Water (bbl)])
+		formatString: 0.0%
+		displayFolder: 1. Volumes
+		lineageTag: 684c803f-7604-4293-a7dd-ca1a68cdf696
+
+	/// Gas-oil ratio.
+	measure 'GOR (scf/bbl)' = DIVIDE([Gas (mcf)] * 1000, [Oil (bbl)])
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: c93d2b90-c630-4bd4-91c8-687ba9b72bf3
+
+	/// Month-over-month change of the daily rate (normalised by days, so short months are comparable).
+	measure 'BOE MoM %' =
+			VAR _cur = [Avg Daily BOE]
+			VAR _prev = CALCULATE([Avg Daily BOE], DATEADD('Date'[Date], -1, MONTH))
+			RETURN
+			IF(NOT ISBLANK(_prev), DIVIDE(_cur - _prev, _prev))
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 1. Volumes
+		lineageTag: 3cb83588-0e06-465b-8123-9110bc0c151c
+
+	/// 30-day rolling average daily BOE.
+	measure 'BOE 30d Rolling Avg' = CALCULATE([Avg Daily BOE], DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -30, DAY))
+		formatString: #,0
+		displayFolder: 1. Volumes
+		lineageTag: 2876c919-0259-44a1-b513-0453043146b6
+
+	/// Type-curve forecast (Arps hyperbolic decline) at 24 h/day.
+	measure 'Forecast BOE' = SUM(Production[ForecastBOE])
+		formatString: #,0
+		displayFolder: 2. Forecast
+		lineageTag: 07486c14-6cf4-46ab-9132-9fcb4e385054
+
+	/// Forecast as a daily rate, comparable with Avg Daily BOE.
+	measure 'Forecast Daily BOE' = DIVIDE([Forecast BOE], [Calendar Days])
+		formatString: #,0
+		displayFolder: 2. Forecast
+		lineageTag: 0d4ccbe7-9237-4453-bfcc-38fe6a0fee0d
+
+	/// Actual minus forecast.
+	measure 'Variance vs Forecast (BOE)' = [BOE] - [Forecast BOE]
+		formatString: +#,0;-#,0;0
+		displayFolder: 2. Forecast
+		lineageTag: 98c14f4b-d9a2-42ba-9e14-cb58b7eff5c1
+
+	/// Actual vs forecast, in %.
+	measure 'Variance vs Forecast %' = DIVIDE([BOE] - [Forecast BOE], [Forecast BOE])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 2. Forecast
+		lineageTag: 17ea696c-616d-46cc-ab60-89e497635995
+
+	/// Forecast oil lost to downtime: forecast rate x hours down / 24.
+	measure 'Deferred Oil (bbl)' = SUM(Production[DeferredOilBbl])
+		formatString: #,0
+		displayFolder: 2. Forecast
+		lineageTag: 6c7add08-4e53-48d2-8aaf-bc760735bd6a
+
+	/// Rank of the well by BOE among the selected wells.
+	measure 'Well Rank (BOE)' = IF(HASONEVALUE(Wells[Well]), RANKX(ALLSELECTED(Wells), [BOE], , DESC, DENSE))
+		formatString: 0
+		displayFolder: 2. Forecast
+		lineageTag: 727b7d31-6d07-4a65-b122-bb2aaf0466b0
+
+	/// Producing hours (reported days only).
+	measure 'Hours On' = SUM(Production[HoursOn])
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 0e24526e-2659-486b-a7e7-84d61c47bbdc
+
+	/// 24 h for every reported well-day.
+	measure 'Available Hours' = 24 * CALCULATE(COUNTROWS(Production), NOT ISBLANK(Production[HoursOn]))
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 15839d2a-9773-4a65-bf9f-a2b022cacac9
+
+	/// Hours on / available hours.
+	measure 'Uptime %' = DIVIDE([Hours On], [Available Hours])
+		formatString: 0.0%
+		displayFolder: 3. Uptime & downtime
+		lineageTag: a8bbcf3d-a6b9-4563-a6fb-9d25cec7d3a0
+
+	/// Hours the wells were not producing.
+	measure 'Downtime Hours' = [Available Hours] - [Hours On]
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: a641926d-a19e-4966-8b4c-9f5062b25896
+
+	/// Number of downtime events.
+	measure 'Downtime Events' = COUNTROWS(Downtime)
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: d815d1bd-390e-49d9-80c3-47af54915151
+
+	/// Failures, outages, leaks, weather.
+	measure 'Unplanned Events' = CALCULATE([Downtime Events], Downtime[Category] = "Unplanned")
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 1b785dbb-5365-42f2-a924-64ad8f70b2f5
+
+	/// Total duration of the events.
+	measure 'Event Hours' = SUM(Downtime[DurationH])
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 9282e9a7-2bfd-4fe1-886b-3ef81c4e751c
+
+	/// Estimated oil deferred per event (forecast rate x duration).
+	measure 'Event Deferred Oil (bbl)' = SUM(Downtime[EstDeferredOilBbl])
+		formatString: #,0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 5c8fdeb8-7e23-4207-ae5b-6592285666aa
+
+	/// Producing well-days per unplanned event (an MTBF-style reliability indicator).
+	measure 'Days Between Unplanned Events' = DIVIDE(CALCULATE(COUNTROWS(Production), Production[HoursOn] > 0), [Unplanned Events])
+		formatString: #,0.0
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 2fd04fc5-6275-424a-91f5-afee479c6bb1
+
+	/// Reason with the most downtime hours in context.
+	measure 'Top Downtime Reason' = MAXX(TOPN(1, VALUES(Downtime[Reason]), [Event Hours], DESC), Downtime[Reason])
+		displayFolder: 3. Uptime & downtime
+		lineageTag: 8affe506-a3d0-4d79-b01e-3358aa1f835e
+
+	/// Lease operating expenses.
+	measure 'LOE ($)' = SUM(LOE[AmountUSD])
+		formatString: \$#,0
+		displayFolder: 4. Cost
+		lineageTag: 92889ce6-da34-4cfe-b144-5013c7314015
+
+	/// Lifting cost per barrel of oil equivalent.
+	measure 'LOE per BOE' =
+			-- LOE is booked per lease, so it cannot be split by well: blank at well level instead of a wrong number
+			IF(ISFILTERED(Wells), BLANK(), DIVIDE([LOE ($)], [BOE]))
+		formatString: \$#,0.00
+		displayFolder: 4. Cost
+		lineageTag: 2173f7f7-410c-40b6-b2d7-90efb4fbc35f
+
+	/// Repair and workover spend.
+	measure 'Repairs & Workovers ($)' = CALCULATE([LOE ($)], LOE[Cost Category] = "Repairs & workovers")
+		formatString: \$#,0
+		displayFolder: 4. Cost
+		lineageTag: bcba9a66-da26-45c6-98ba-62ea34f28a76
+
+	/// Share of LOE spent on repairs and workovers.
+	measure 'Repairs % of LOE' = DIVIDE([Repairs & Workovers ($)], [LOE ($)])
+		formatString: 0.0%
+		displayFolder: 4. Cost
+		lineageTag: 64643e91-0d8a-4ed1-9f23-d0de0d87a06e
+
+	/// Sum of well allocations.
+	measure 'Allocated Oil (bbl)' = CALCULATE(SUM('Sales Recon'[AllocatedVolume]), 'Sales Recon'[Product] = "Oil (bbl)")
+		formatString: #,0
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 61c8775a-e4c5-49e4-bf21-1cae3c5c629d
+
+	/// Lease sales meter (LACT).
+	measure 'Sold Oil (bbl)' = CALCULATE(SUM('Sales Recon'[SoldVolume]), 'Sales Recon'[Product] = "Oil (bbl)")
+		formatString: #,0
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 39d835cb-1beb-4b16-add2-2814a0dd4f16
+
+	/// Positive = more sold than allocated.
+	measure 'Sales vs Allocation %' = DIVIDE([Sold Oil (bbl)] - [Allocated Oil (bbl)], [Allocated Oil (bbl)])
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 3ba2d682-b81f-4f43-b4bd-5f2b807057da
+
+	/// Size of the gap, for sorting.
+	measure 'Abs Recon Gap %' = ABS([Sales vs Allocation %])
+		formatString: 0.0%
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: b96af9f5-0015-4ad7-92e2-4df1655550a7
+
+	/// Tolerance: 3%.
+	measure 'Recon Status' =
+			VAR _gap = [Abs Recon Gap %]
+			RETURN
+			IF(NOT ISBLANK(_gap), IF(_gap > 0.03, "Investigate", "OK"))
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: a4263837-c4f2-4ed5-bfe1-d8ea48ec25bf
+
+	/// Issues logged by the validation SQL.
+	measure 'DQ Issues' = COUNTROWS('DQ Issues')
+		formatString: #,0
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 28db9126-66d6-41bd-9ac3-fc84a73c320a
+
+	/// Rows excluded from the model.
+	measure 'Rows Rejected' = CALCULATE([DQ Issues], 'DQ Issues'[Severity] = "Error")
+		formatString: #,0
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: a6080395-bcc5-4556-8e9f-3cbaa891b648
+
+	/// Expected well-days with no valid report.
+	measure 'Missing Well-Days' = CALCULATE(COUNTROWS(Production), Production[IsMissing] = 1)
+		formatString: #,0
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 8b516c22-7f2e-40a6-ac9e-27661ac7de89
+
+	/// Share of expected well-days with a valid report.
+	measure 'Data Completeness %' = 1 - DIVIDE([Missing Well-Days], COUNTROWS(Production))
+		formatString: 0.00%
+		displayFolder: 5. Reconciliation & data quality
+		lineageTag: 0f516f57-f3ed-4910-b1c0-612341b3713a
+
+	/// Average tubing pressure (spikes excluded).
+	measure 'Avg Tubing Pressure (psi)' = AVERAGE('SCADA Hourly'[TubingPsi])
+		formatString: #,0
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: ddbb8c91-8e18-42ab-ac1f-d7d2141dc7e2
+
+	/// Average casing pressure.
+	measure 'Avg Casing Pressure (psi)' = AVERAGE('SCADA Hourly'[CasingPsi])
+		formatString: #,0
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: adafbfc5-72fa-45c3-8468-cd94dd587b71
+
+	/// Average instantaneous oil rate.
+	measure 'Avg Oil Rate (bopd)' = AVERAGE('SCADA Hourly'[OilRateBopd])
+		formatString: #,0
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: 14db772c-c307-4490-9909-062b94477ece
+
+	/// Oil implied by the hourly flow rates.
+	measure 'SCADA Oil (bbl)' = SUM('SCADA Hourly'[OilRateBopd]) / 24
+		formatString: #,0
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: 386d44f6-98b5-4fc6-bd14-7f16b5ab738c
+
+	/// Hourly meter vs daily allocation, over the same days (virtual relationship with TREATAS).
+	measure 'SCADA vs Reported %' =
+			VAR _scada = [SCADA Oil (bbl)]
+			VAR _reported = CALCULATE([Oil (bbl)], TREATAS(VALUES('SCADA Hourly'[ReadingDate]), 'Date'[Date]))
+			RETURN
+			DIVIDE(_scada - _reported, _reported)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: ea12c4cb-8a2d-47c6-993e-790a1b023866
+
+	/// Hours with zero flow.
+	measure 'Shut-in Hours' = CALCULATE(COUNTROWS('SCADA Hourly'), 'SCADA Hourly'[OilRateBopd] = 0)
+		formatString: #,0
+		displayFolder: 6. SCADA (hourly)
+		lineageTag: afd26412-e4de-4c8a-ab75-c1f1b502b481
+
+	/// 5 KPI tiles with status colours (green / amber / red against thresholds).
+	measure 'HTML KPI Strip' =
+			VAR _green = "#1B9E5A"
+			VAR _amber = "#E0A100"
+			VAR _red = "#D64545"
+			VAR _var = [Variance vs Forecast %]
+			VAR _up = [Uptime %]
+			VAR _comp = [Data Completeness %]
+			VAR _varC = SWITCH(TRUE(), _var >= 0, _green, _var >= -0.05, _amber, _red)
+			VAR _upC = SWITCH(TRUE(), _up >= 0.95, _green, _up >= 0.9, _amber, _red)
+			VAR _compC = IF(_comp >= 0.99, _green, _amber)
+			VAR _tile = "flex:1;margin:5px;padding:12px 14px;background:#FFFFFF;border-radius:10px;border:1px solid #D6DBE4;border-left:6px solid "
+			VAR _lbl = "<div style='font:600 12px Segoe UI;color:#5B6475;text-transform:uppercase;letter-spacing:.5px'>"
+			VAR _val = "<div style='font:700 26px Segoe UI;margin-top:4px;color:"
+			VAR _sub = "<div style='font:12px Segoe UI;color:#5B6475;margin-top:2px'>"
+			RETURN
+			"<div style='display:flex;font-family:Segoe UI'>"
+			    & "<div style='" & _tile & "#0B6E4F'>" & _lbl & "Current rate</div>" & _val & "#14213D'>" & FORMAT([Current Rate (7d BOE/d)], "#,0") & " BOE/d</div>"
+			    & _sub & "Last 7 days &middot; " & FORMAT([Avg Daily Oil], "#,0") & " bbl/d oil avg</div></div>"
+			    & "<div style='" & _tile & _varC & "'>" & _lbl & "vs type curve</div>" & _val & _varC & "'>" & FORMAT(_var, "+0.0%;-0.0%") & "</div>"
+			    & _sub & FORMAT([Variance vs Forecast (BOE)], "+#,0;-#,0") & " BOE vs forecast</div></div>"
+			    & "<div style='" & _tile & _upC & "'>" & _lbl & "Uptime</div>" & _val & _upC & "'>" & FORMAT(_up, "0.0%") & "</div>"
+			    & _sub & FORMAT([Deferred Oil (bbl)], "#,0") & " bbl deferred</div></div>"
+			    & "<div style='" & _tile & "#7A4DFF'>" & _lbl & "Lifting cost</div>" & _val & "#14213D'>" & FORMAT([LOE per BOE], "$0.00") & "/BOE</div>"
+			    & _sub & FORMAT([LOE ($)], "$#,0") & " LOE</div></div>"
+			    & "<div style='" & _tile & _compC & "'>" & _lbl & "Data completeness</div>" & _val & _compC & "'>" & FORMAT(_comp, "0.0%") & "</div>"
+			    & _sub & FORMAT([DQ Issues], "#,0") & " issues logged</div></div>"
+			& "</div>"
+		displayFolder: 7. HTML
+		lineageTag: 98f0bc7e-19b2-4ea9-adab-79c0588782de
+
+	/// One card per field: daily rate, variance badge and uptime bar (CONCATENATEX over the fields).
+	measure 'HTML Field Cards' =
+			VAR _cards =
+			    CONCATENATEX(
+			        VALUES(Leases[Field]),
+			        VAR _var = [Variance vs Forecast %]
+			        VAR _up = [Uptime %]
+			        VAR _c = SWITCH(TRUE(), _var >= 0, "#1B9E5A", _var >= -0.05, "#E0A100", "#D64545")
+			        RETURN
+			        "<div style='flex:1;margin:5px;padding:12px;background:#FFFFFF;border:1px solid #D6DBE4;border-radius:10px'>"
+			            & "<div style='display:flex;justify-content:space-between;align-items:center'>"
+			            & "<span style='font:700 15px Segoe UI;color:#14213D'>" & Leases[Field] & "</span>"
+			            & "<span style='font:700 12px Segoe UI;color:#FFFFFF;background:" & _c & ";padding:2px 8px;border-radius:10px'>" & FORMAT(_var, "+0.0%;-0.0%") & "</span></div>"
+			            & "<div style='font:700 24px Segoe UI;color:#0B6E4F;margin-top:6px'>" & FORMAT([Avg Daily BOE], "#,0") & " <span style='font:13px Segoe UI;color:#5B6475'>BOE/d</span></div>"
+			            & "<div style='font:12px Segoe UI;color:#5B6475;margin-top:4px'>Water cut " & FORMAT([Water Cut %], "0%") & " &middot; GOR " & FORMAT([GOR (scf/bbl)], "#,0") & " scf/bbl</div>"
+			            & "<div style='font:12px Segoe UI;color:#5B6475;margin-top:8px'>Uptime " & FORMAT(_up, "0.0%") & "</div>"
+			            & "<div style='height:8px;background:#E9EDF3;border-radius:4px;margin-top:3px'><div style='width:" & FORMAT(_up * 100, "0") & "%;height:8px;background:#0B6E4F;border-radius:4px'></div></div>"
+			        & "</div>",
+			        "",
+			        [Avg Daily BOE], DESC
+			    )
+			RETURN
+			"<div style='display:flex;font-family:Segoe UI'>" & _cards & "</div>"
+		displayFolder: 7. HTML
+		lineageTag: 61594af1-a865-4ae4-8a8d-4b9466552dd3
+
+	/// Exception list: wells more than 10% below type curve or under 92% uptime, worst first.
+	measure 'HTML Well Alerts' =
+			VAR _wells =
+			    FILTER(
+			        ADDCOLUMNS(VALUES(Wells[Well]), "@var", [Variance vs Forecast %], "@up", [Uptime %], "@def", [Deferred Oil (bbl)]),
+			        [@var] < -0.10 || [@up] < 0.92
+			    )
+			VAR _n = COUNTROWS(_wells)
+			VAR _rows =
+			    CONCATENATEX(
+			        TOPN(6, _wells, [@var], ASC),
+			        VAR _isPerf = [@var] < -0.10
+			        RETURN
+			        "<div style='display:flex;align-items:center;padding:7px 0;border-bottom:1px solid #EEF1F5;font:13px Segoe UI;color:#14213D'>"
+			            & "<span style='width:10px;height:10px;border-radius:5px;margin-right:9px;background:" & IF(_isPerf, "#D64545", "#E0A100") & "'></span>"
+			            & "<span style='flex:1;font-weight:600'>" & Wells[Well] & "</span>"
+			            & "<span style='width:90px;text-align:right;color:" & IF(_isPerf, "#D64545", "#5B6475") & "'>" & FORMAT([@var], "+0%;-0%") & " vs TC</span>"
+			            & "<span style='width:90px;text-align:right;color:" & IF([@up] < 0.92, "#E0A100", "#5B6475") & "'>" & FORMAT([@up], "0%") & " up</span>"
+			            & "<span style='width:110px;text-align:right;color:#5B6475'>" & FORMAT([@def], "#,0") & " bbl def.</span>"
+			        & "</div>",
+			        "",
+			        [@var], ASC
+			    )
+			RETURN
+			"<div style='font-family:Segoe UI;padding:4px 8px'>"
+			    & "<div style='font:700 16px Segoe UI;color:#14213D'>Wells to review <span style='font:600 12px Segoe UI;color:#FFFFFF;background:#D64545;padding:1px 8px;border-radius:9px;margin-left:6px'>" & COALESCE(_n, 0) & "</span></div>"
+			    & "<div style='font:12px Segoe UI;color:#5B6475;margin-bottom:4px'>Rule: more than 10% below type curve, or uptime under 92%</div>"
+			    & IF(COALESCE(_n, 0) = 0, "<div style='font:13px Segoe UI;color:#1B9E5A;padding:10px 0'>All wells within tolerance &#10003;</div>", _rows)
+			& "</div>"
+		displayFolder: 7. HTML
+		lineageTag: 03e08433-4920-4cb7-9199-a96022d0a7c3
+
+	/// Top 5 downtime reasons with share of hours (Pareto view).
+	measure 'HTML Downtime Pareto' =
+			VAR _total = [Event Hours]
+			VAR _top = TOPN(5, VALUES(Downtime[Reason]), [Event Hours], DESC)
+			VAR _max = MAXX(_top, [Event Hours])
+			VAR _rows =
+			    CONCATENATEX(
+			        _top,
+			        VAR _h = [Event Hours]
+			        RETURN
+			        "<div style='margin:9px 0'>"
+			            & "<div style='display:flex;justify-content:space-between;font:13px Segoe UI;color:#14213D'><span>" & Downtime[Reason] & "</span>"
+			            & "<span><b>" & FORMAT(_h, "#,0") & " h</b> <span style='color:#5B6475'>(" & FORMAT(DIVIDE(_h, _total), "0%") & ")</span></span></div>"
+			            & "<div style='height:8px;background:#E9EDF3;border-radius:4px;margin-top:3px'><div style='width:" & FORMAT(DIVIDE(_h, _max) * 100, "0") & "%;height:8px;background:#C2410C;border-radius:4px'></div></div>"
+			        & "</div>",
+			        "",
+			        [Event Hours], DESC
+			    )
+			RETURN
+			"<div style='font-family:Segoe UI;padding:4px 8px'>"
+			    & "<div style='font:700 16px Segoe UI;color:#14213D'>Where the hours go</div>"
+			    & "<div style='font:12px Segoe UI;color:#5B6475'>Top 5 downtime reasons &middot; " & FORMAT(_total, "#,0") & " h in total</div>"
+			    & _rows
+			& "</div>"
+		displayFolder: 7. HTML
+		lineageTag: 165edd44-737d-4172-889f-73669ba05df1
+
+	column Placeholder
+		isHidden
+		lineageTag: b717d1e9-7113-4df1-b71f-7beff58a6bca
+		isNameInferred
+		sourceColumn: [Placeholder]
+
+	partition _Measures = calculated
+		mode: import
+		source = ROW("Placeholder", BLANK())
+

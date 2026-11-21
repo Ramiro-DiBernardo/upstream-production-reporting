@@ -1,0 +1,541 @@
+EventID,WellID,StartTime,EndTime,Reason,Category
+DT-00001,W-001,2025-01-26 19:00,2025-01-29 03:00,Pump / ESP failure,Unplanned
+DT-00002,W-001,2025-02-08 19:00,2025-02-09 12:00,Facility constraint,Unplanned
+DT-00003,W-001,2025-02-20 14:00,2025-02-24 10:00,Pump / ESP failure,Unplanned
+DT-00004,W-001,2025-03-10 03:00,2025-03-10 09:00,Planned maintenance,Planned
+DT-00005,W-001,2025-04-16 22:00,2025-04-17 19:00,Facility constraint,Unplanned
+DT-00006,W-001,2025-04-21 11:00,2025-04-25 12:00,Pump / ESP failure,Unplanned
+DT-00007,W-001,2025-04-26 16:00,2025-04-26 20:00,Planned maintenance,Planned
+DT-00008,W-001,2025-05-06 22:00,2025-05-07 06:00,Facility constraint,Unplanned
+DT-00009,W-001,2025-06-24 11:00,2025-06-24 17:00,Planned maintenance,Planned
+DT-00010,W-001,2025-08-02 10:00,2025-08-02 22:00,Planned maintenance,Planned
+DT-00011,W-001,2025-08-29 07:00,2025-08-29 14:00,Planned maintenance,Planned
+DT-00012,W-001,2025-10-13 06:00,2025-10-13 19:00,Facility constraint,Unplanned
+DT-00013,W-001,2025-11-01 00:00,2025-11-01 04:00,Planned maintenance,Planned
+DT-00014,W-001,2025-12-12 22:00,2025-12-13 05:00,Planned maintenance,Planned
+DT-00015,W-001,2026-01-06 11:00,2026-01-06 20:00,Planned maintenance,Planned
+DT-00016,W-001,2026-01-09 06:00,2026-01-13 00:00,Pump / ESP failure,Unplanned
+DT-00017,W-001,2026-01-20 00:00,2026-01-20 13:00,Planned maintenance,Planned
+DT-00018,W-001,2026-02-06 02:00,2026-02-07 04:00,Facility constraint,Unplanned
+DT-00019,W-001,2026-03-25 22:00,2026-03-29 05:00,Pump / ESP failure,Unplanned
+DT-00020,W-001,2026-05-01 13:00,2026-05-01 19:00,Planned maintenance,Planned
+DT-00021,W-001,2026-06-11 14:00,2026-06-12 00:00,Planned maintenance,Planned
+DT-00022,W-001,2026-06-25 05:00,2026-06-25 23:00,Wellhead / flowline leak,Unplanned
+DT-00023,W-002,2025-01-02 20:00,2025-01-03 07:00,Planned maintenance,Planned
+DT-00024,W-002,2025-01-07 21:00,2025-01-14 09:00,Workover,Planned
+DT-00025,W-002,2025-03-21 04:00,2025-03-25 08:00,Pump / ESP failure,Unplanned
+DT-00026,W-002,2025-03-22 20:00,2025-03-24 01:00,Facility constraint,Unplanned
+DT-00027,W-002,2025-03-25 13:00,2025-03-25 23:00,Facility constraint,Unplanned
+DT-00028,W-002,2025-07-16 00:00,2025-07-18 09:00,Pump / ESP failure,Unplanned
+DT-00029,W-002,2025-07-24 18:00,2025-07-25 01:00,Planned maintenance,Planned
+DT-00030,W-002,2025-08-04 01:00,2025-08-04 07:00,Planned maintenance,Planned
+DT-00031,W-002,2025-10-06 21:00,2025-10-07 08:00,Planned maintenance,Planned
+DT-00032,W-002,2025-10-29 16:00,2025-10-31 02:00,Wellhead / flowline leak,Unplanned
+DT-00033,W-002,2025-11-02 00:00,2025-11-05 23:00,Pump / ESP failure,Unplanned
+DT-00034,W-002,2025-12-26 00:00,2025-12-27 01:00,Facility constraint,Unplanned
+DT-00035,W-002,2026-02-03 15:00,2026-02-05 15:00,Pump / ESP failure,Unplanned
+DT-00036,W-002,2026-03-01 10:00,2026-03-02 23:00,Pump / ESP failure,Unplanned
+DT-00037,W-002,2026-03-31 03:00,2026-03-31 14:00,Planned maintenance,Planned
+DT-00038,W-002,2026-05-26 08:00,2026-05-28 14:00,Pump / ESP failure,Unplanned
+DT-00039,W-002,2026-05-28 17:00,2026-06-01 08:00,Pump / ESP failure,Unplanned
+DT-00040,W-002,2026-05-29 14:00,2026-05-30 02:00,Wellhead / flowline leak,Unplanned
+DT-00041,W-002,2026-06-09 16:00,2026-06-11 14:00,Wellhead / flowline leak,Unplanned
+DT-00042,W-002,2026-06-15 17:00,2026-06-16 05:00,Planned maintenance,Planned
+DT-00043,W-002,2026-07-28 22:00,2026-07-29 05:00,Planned maintenance,Planned
+DT-00044,W-002,2026-08-17 17:00,2026-08-18 17:00,Wellhead / flowline leak,Unplanned
+DT-00045,W-002,2026-10-15 04:00,2026-10-18 19:00,Pump / ESP failure,Unplanned
+DT-00046,W-002,2026-10-30 02:00,2026-10-30 11:00,Planned maintenance,Planned
+DT-00047,W-003,2025-01-16 03:00,2025-01-16 11:00,Planned maintenance,Planned
+DT-00048,W-003,2025-03-17 21:00,2025-03-18 11:00,Planned maintenance,Planned
+DT-00049,W-003,2025-03-29 14:00,2025-03-29 20:00,Planned maintenance,Planned
+DT-00050,W-003,2025-04-05 15:00,2025-04-07 00:00,Wellhead / flowline leak,Unplanned
+DT-00051,W-003,2025-04-10 05:00,2025-04-10 18:00,Facility constraint,Unplanned
+DT-00052,W-003,2025-05-12 10:00,2025-05-13 19:00,Wellhead / flowline leak,Unplanned
+DT-00053,W-003,2025-05-27 23:00,2025-05-28 04:00,Planned maintenance,Planned
+DT-00054,W-003,2025-06-08 14:00,2025-06-09 01:00,Planned maintenance,Planned
+DT-00055,W-003,2025-07-10 19:00,2025-07-11 07:00,Planned maintenance,Planned
+DT-00056,W-003,2025-07-20 07:00,2025-07-20 22:00,Wellhead / flowline leak,Unplanned
+DT-00057,W-003,2025-10-21 08:00,2025-10-21 16:00,Planned maintenance,Planned
+DT-00058,W-003,2025-10-23 04:00,2025-10-28 14:00,Workover,Planned
+DT-00059,W-003,2025-12-07 12:00,2025-12-08 12:00,Wellhead / flowline leak,Unplanned
+DT-00060,W-003,2025-12-12 15:00,2025-12-14 11:00,Wellhead / flowline leak,Unplanned
+DT-00061,W-003,2026-01-13 22:00,2026-01-14 02:00,Planned maintenance,Planned
+DT-00062,W-003,2026-01-19 00:00,2026-01-20 01:00,Wellhead / flowline leak,Unplanned
+DT-00063,W-003,2026-02-15 19:00,2026-02-20 05:00,Workover,Planned
+DT-00064,W-003,2026-04-07 14:00,2026-04-07 19:00,Planned maintenance,Planned
+DT-00065,W-003,2026-04-08 08:00,2026-04-09 18:00,Wellhead / flowline leak,Unplanned
+DT-00066,W-003,2026-05-04 03:00,2026-05-04 10:00,Planned maintenance,Planned
+DT-00067,W-003,2026-08-03 06:00,2026-08-03 12:00,Planned maintenance,Planned
+DT-00068,W-003,2026-10-12 06:00,2026-10-13 04:00,Facility constraint,Unplanned
+DT-00069,W-003,2026-10-21 08:00,2026-10-21 14:00,Planned maintenance,Planned
+DT-00070,W-004,2025-01-02 00:00,2025-01-02 04:00,Planned maintenance,Planned
+DT-00071,W-004,2025-02-06 16:00,2025-02-06 23:00,Planned maintenance,Planned
+DT-00072,W-004,2025-02-23 21:00,2025-02-24 11:00,Wellhead / flowline leak,Unplanned
+DT-00073,W-004,2025-04-09 17:00,2025-04-10 04:00,Planned maintenance,Planned
+DT-00074,W-004,2025-05-26 09:00,2025-05-26 21:00,Planned maintenance,Planned
+DT-00075,W-004,2025-06-26 06:00,2025-06-27 11:00,Wellhead / flowline leak,Unplanned
+DT-00076,W-004,2025-08-12 04:00,2025-08-13 06:00,Facility constraint,Unplanned
+DT-00077,W-004,2025-08-26 04:00,2025-08-26 08:00,Planned maintenance,Planned
+DT-00078,W-004,2025-08-27 13:00,2025-08-27 21:00,Planned maintenance,Planned
+DT-00079,W-004,2025-09-01 16:00,2025-09-04 22:00,Pump / ESP failure,Unplanned
+DT-00080,W-004,2025-09-30 22:00,2025-10-01 05:00,Planned maintenance,Planned
+DT-00081,W-004,2025-10-10 08:00,2025-10-10 14:00,Planned maintenance,Planned
+DT-00082,W-004,2025-10-26 17:00,2025-10-27 02:00,Planned maintenance,Planned
+DT-00083,W-004,2025-11-06 06:00,2025-11-09 03:00,Pump / ESP failure,Unplanned
+DT-00084,W-004,2025-11-18 02:00,2025-11-21 08:00,Pump / ESP failure,Unplanned
+DT-00085,W-004,2025-12-05 07:00,2025-12-05 14:00,Planned maintenance,Planned
+DT-00086,W-004,2025-12-24 02:00,2025-12-26 17:00,Pump / ESP failure,Unplanned
+DT-00087,W-004,2025-12-29 00:00,2025-12-29 10:00,Planned maintenance,Planned
+DT-00088,W-004,2026-01-08 18:00,2026-01-08 23:00,Planned maintenance,Planned
+DT-00089,W-004,2026-04-01 21:00,2026-04-06 16:00,Workover,Planned
+DT-00090,W-004,2026-05-30 12:00,2026-05-31 13:00,Facility constraint,Unplanned
+DT-00091,W-004,2026-07-07 04:00,2026-07-08 01:00,Facility constraint,Unplanned
+DT-00092,W-004,2026-07-16 01:00,2026-07-16 07:00,Planned maintenance,Planned
+DT-00093,W-004,2026-08-31 20:00,2026-09-01 18:00,Facility constraint,Unplanned
+DT-00094,W-004,2026-09-15 04:00,2026-09-16 02:00,Facility constraint,Unplanned
+DT-00095,W-005,2026-03-31 21:00,2026-04-01 03:00,Facility constraint,Unplanned
+DT-00096,W-005,2026-04-23 02:00,2026-04-24 00:00,Wellhead / flowline leak,Unplanned
+DT-00097,W-005,2026-04-24 03:00,2026-04-24 12:00,Planned maintenance,Planned
+DT-00098,W-005,2026-05-07 20:00,2026-05-08 00:00,Planned maintenance,Planned
+DT-00099,W-005,2026-05-08 15:00,2026-05-09 04:00,Facility constraint,Unplanned
+DT-00100,W-005,2026-05-16 23:00,2026-05-17 04:00,Planned maintenance,Planned
+DT-00101,W-005,2026-07-26 21:00,2026-07-27 10:00,Wellhead / flowline leak,Unplanned
+DT-00102,W-005,2026-08-15 08:00,2026-08-16 05:00,Facility constraint,Unplanned
+DT-00103,W-005,2026-09-28 23:00,2026-09-29 22:00,Wellhead / flowline leak,Unplanned
+DT-00104,W-006,2025-01-08 15:00,2025-01-09 11:00,Facility constraint,Unplanned
+DT-00105,W-006,2025-02-26 09:00,2025-03-03 06:00,Pump / ESP failure,Unplanned
+DT-00106,W-006,2025-04-05 06:00,2025-04-05 20:00,Planned maintenance,Planned
+DT-00107,W-006,2025-04-08 20:00,2025-04-11 10:00,Pump / ESP failure,Unplanned
+DT-00108,W-006,2025-05-14 04:00,2025-05-14 17:00,Planned maintenance,Planned
+DT-00109,W-006,2025-05-15 21:00,2025-05-18 13:00,Pump / ESP failure,Unplanned
+DT-00110,W-006,2025-05-18 09:00,2025-05-22 05:00,Pump / ESP failure,Unplanned
+DT-00111,W-006,2025-06-20 14:00,2025-06-21 01:00,Planned maintenance,Planned
+DT-00112,W-006,2025-07-28 06:00,2025-07-30 01:00,Wellhead / flowline leak,Unplanned
+DT-00113,W-006,2025-08-07 00:00,2025-08-10 18:00,Pump / ESP failure,Unplanned
+DT-00114,W-006,2025-08-16 14:00,2025-08-20 12:00,Pump / ESP failure,Unplanned
+DT-00115,W-006,2025-12-27 02:00,2025-12-27 09:00,Planned maintenance,Planned
+DT-00116,W-006,2026-01-19 08:00,2026-01-23 09:00,Pump / ESP failure,Unplanned
+DT-00117,W-006,2026-04-09 16:00,2026-04-14 06:00,Pump / ESP failure,Unplanned
+DT-00118,W-006,2026-04-18 07:00,2026-04-21 11:00,Pump / ESP failure,Unplanned
+DT-00119,W-006,2026-05-06 00:00,2026-05-07 09:00,Wellhead / flowline leak,Unplanned
+DT-00120,W-006,2026-05-11 12:00,2026-05-13 00:00,Wellhead / flowline leak,Unplanned
+DT-00121,W-006,2026-05-21 12:00,2026-05-24 14:00,Pump / ESP failure,Unplanned
+DT-00122,W-006,2026-05-31 10:00,2026-06-04 10:00,Workover,Planned
+DT-00123,W-006,2026-07-07 06:00,2026-07-11 21:00,Workover,Planned
+DT-00124,W-006,2026-08-09 08:00,2026-08-10 10:00,Wellhead / flowline leak,Unplanned
+DT-00125,W-006,2026-08-22 02:00,2026-08-22 15:00,Planned maintenance,Planned
+DT-00126,W-006,2026-09-03 01:00,2026-09-03 09:00,Planned maintenance,Planned
+DT-00127,W-006,2026-09-12 09:00,2026-09-17 03:00,Pump / ESP failure,Unplanned
+DT-00128,W-006,2026-10-09 13:00,2026-10-12 05:00,Pump / ESP failure,Unplanned
+DT-00129,W-006,2026-10-28 13:00,2026-10-31 18:00,Pump / ESP failure,Unplanned
+DT-00130,W-007,2025-02-14 17:00,2025-02-15 05:00,Planned maintenance,Planned
+DT-00131,W-007,2025-02-20 14:00,2025-02-24 00:00,Pump / ESP failure,Unplanned
+DT-00132,W-007,2025-03-17 15:00,2025-03-20 09:00,Pump / ESP failure,Unplanned
+DT-00133,W-007,2025-03-19 05:00,2025-03-19 21:00,Wellhead / flowline leak,Unplanned
+DT-00134,W-007,2025-04-05 08:00,2025-04-05 16:00,Planned maintenance,Planned
+DT-00135,W-007,2025-05-10 12:00,2025-05-11 12:00,Wellhead / flowline leak,Unplanned
+DT-00136,W-007,2025-06-07 21:00,2025-06-08 09:00,Planned maintenance,Planned
+DT-00137,W-007,2025-06-21 02:00,2025-06-23 04:00,Pump / ESP failure,Unplanned
+DT-00138,W-007,2025-06-28 17:00,2025-06-30 08:00,Wellhead / flowline leak,Unplanned
+DT-00139,W-007,2025-07-05 13:00,2025-07-07 01:00,Wellhead / flowline leak,Unplanned
+DT-00140,W-007,2025-07-09 05:00,2025-07-10 22:00,Pump / ESP failure,Unplanned
+DT-00141,W-007,2025-07-20 11:00,2025-07-22 23:00,Pump / ESP failure,Unplanned
+DT-00142,W-007,2025-07-28 23:00,2025-07-29 03:00,Planned maintenance,Planned
+DT-00143,W-007,2025-09-20 06:00,2025-09-20 18:00,Planned maintenance,Planned
+DT-00144,W-007,2025-10-03 15:00,2025-10-03 19:00,Planned maintenance,Planned
+DT-00145,W-007,2025-10-12 21:00,2025-10-13 13:00,Wellhead / flowline leak,Unplanned
+DT-00146,W-007,2025-10-31 02:00,2025-10-31 09:00,Planned maintenance,Planned
+DT-00147,W-007,2025-11-09 20:00,2025-11-10 06:00,Planned maintenance,Planned
+DT-00148,W-007,2025-11-25 04:00,2025-11-25 13:00,Wellhead / flowline leak,Unplanned
+DT-00149,W-007,2025-11-26 18:00,2025-11-27 15:00,Facility constraint,Unplanned
+DT-00150,W-007,2025-12-14 14:00,2025-12-18 15:00,Pump / ESP failure,Unplanned
+DT-00151,W-007,2026-03-18 07:00,2026-03-18 12:00,Planned maintenance,Planned
+DT-00152,W-007,2026-03-23 03:00,2026-03-23 17:00,Planned maintenance,Planned
+DT-00153,W-007,2026-06-05 14:00,2026-06-06 16:00,Facility constraint,Unplanned
+DT-00154,W-007,2026-06-08 04:00,2026-06-08 10:00,Facility constraint,Unplanned
+DT-00155,W-007,2026-06-15 04:00,2026-06-16 07:00,Wellhead / flowline leak,Unplanned
+DT-00156,W-007,2026-07-11 22:00,2026-07-12 08:00,Planned maintenance,Planned
+DT-00157,W-007,2026-08-18 16:00,2026-08-21 12:00,Pump / ESP failure,Unplanned
+DT-00158,W-008,2025-01-07 00:00,2025-01-07 13:00,Planned maintenance,Planned
+DT-00159,W-008,2025-01-08 08:00,2025-01-08 19:00,Planned maintenance,Planned
+DT-00160,W-008,2025-04-02 15:00,2025-04-03 04:00,Facility constraint,Unplanned
+DT-00161,W-008,2025-04-22 13:00,2025-04-22 17:00,Planned maintenance,Planned
+DT-00162,W-008,2025-05-24 06:00,2025-05-24 10:00,Planned maintenance,Planned
+DT-00163,W-008,2025-06-11 02:00,2025-06-11 21:00,Facility constraint,Unplanned
+DT-00164,W-008,2025-06-19 07:00,2025-06-20 00:00,Facility constraint,Unplanned
+DT-00165,W-008,2025-07-07 13:00,2025-07-08 17:00,Facility constraint,Unplanned
+DT-00166,W-008,2025-07-19 09:00,2025-07-19 13:00,Planned maintenance,Planned
+DT-00167,W-008,2025-08-23 15:00,2025-08-23 22:00,Planned maintenance,Planned
+DT-00168,W-008,2025-11-23 07:00,2025-11-23 14:00,Planned maintenance,Planned
+DT-00169,W-008,2025-12-10 03:00,2025-12-10 11:00,Planned maintenance,Planned
+DT-00170,W-008,2026-02-27 07:00,2026-02-27 13:00,Planned maintenance,Planned
+DT-00171,W-008,2026-03-17 19:00,2026-03-18 06:00,Wellhead / flowline leak,Unplanned
+DT-00172,W-008,2026-03-22 00:00,2026-03-22 07:00,Planned maintenance,Planned
+DT-00173,W-008,2026-06-26 22:00,2026-06-28 10:00,Pump / ESP failure,Unplanned
+DT-00174,W-008,2026-06-28 23:00,2026-06-29 08:00,Planned maintenance,Planned
+DT-00175,W-008,2026-07-02 10:00,2026-07-04 13:00,Pump / ESP failure,Unplanned
+DT-00176,W-008,2026-07-08 23:00,2026-07-09 21:00,Facility constraint,Unplanned
+DT-00177,W-008,2026-07-25 11:00,2026-07-25 21:00,Planned maintenance,Planned
+DT-00178,W-009,2025-01-17 08:00,2025-01-17 13:00,Planned maintenance,Planned
+DT-00179,W-009,2025-01-20 17:00,2025-01-20 22:00,Planned maintenance,Planned
+DT-00180,W-009,2025-04-17 09:00,2025-04-17 18:00,Planned maintenance,Planned
+DT-00181,W-009,2025-06-01 22:00,2025-06-02 02:00,Planned maintenance,Planned
+DT-00182,W-009,2025-06-18 06:00,2025-06-18 17:00,Planned maintenance,Planned
+DT-00183,W-009,2025-06-29 00:00,2025-06-29 21:00,Facility constraint,Unplanned
+DT-00184,W-009,2025-07-25 12:00,2025-07-26 02:00,Planned maintenance,Planned
+DT-00185,W-009,2025-07-27 01:00,2025-07-27 06:00,Planned maintenance,Planned
+DT-00186,W-009,2025-08-04 10:00,2025-08-05 11:00,Facility constraint,Unplanned
+DT-00187,W-009,2025-08-16 01:00,2025-08-16 14:00,Planned maintenance,Planned
+DT-00188,W-009,2025-08-24 08:00,2025-08-25 00:00,Facility constraint,Unplanned
+DT-00189,W-009,2025-09-03 20:00,2025-09-04 21:00,Facility constraint,Unplanned
+DT-00190,W-009,2025-11-19 03:00,2025-11-19 10:00,Planned maintenance,Planned
+DT-00191,W-009,2025-12-06 08:00,2025-12-07 16:00,Wellhead / flowline leak,Unplanned
+DT-00192,W-009,2026-02-08 15:00,2026-02-13 07:00,Workover,Planned
+DT-00193,W-009,2026-02-14 09:00,2026-02-22 07:00,Workover,Planned
+DT-00194,W-009,2026-03-31 07:00,2026-04-07 12:00,Workover,Planned
+DT-00195,W-009,2026-04-11 19:00,2026-04-12 04:00,Planned maintenance,Planned
+DT-00196,W-009,2026-04-14 07:00,2026-04-14 13:00,Planned maintenance,Planned
+DT-00197,W-009,2026-04-28 17:00,2026-04-29 14:00,Facility constraint,Unplanned
+DT-00198,W-009,2026-05-19 03:00,2026-05-19 13:00,Planned maintenance,Planned
+DT-00199,W-009,2026-09-11 06:00,2026-09-11 11:00,Planned maintenance,Planned
+DT-00200,W-009,2026-09-14 05:00,2026-09-14 16:00,Planned maintenance,Planned
+DT-00201,W-009,2026-09-21 21:00,2026-09-22 10:00,Planned maintenance,Planned
+DT-00202,W-009,2026-09-28 21:00,2026-09-30 03:00,Facility constraint,Unplanned
+DT-00203,W-010,2025-02-10 18:00,2025-02-11 02:00,Planned maintenance,Planned
+DT-00204,W-010,2025-02-19 06:00,2025-02-19 14:00,Planned maintenance,Planned
+DT-00205,W-010,2025-03-07 04:00,2025-03-09 16:00,Pump / ESP failure,Unplanned
+DT-00206,W-010,2025-03-16 10:00,2025-03-17 06:00,Wellhead / flowline leak,Unplanned
+DT-00207,W-010,2025-03-18 16:00,2025-03-18 23:00,Planned maintenance,Planned
+DT-00208,W-010,2025-04-07 20:00,2025-04-08 05:00,Facility constraint,Unplanned
+DT-00209,W-010,2025-04-24 15:00,2025-04-25 21:00,Pump / ESP failure,Unplanned
+DT-00210,W-010,2025-06-19 11:00,2025-06-23 02:00,Pump / ESP failure,Unplanned
+DT-00211,W-010,2025-06-21 01:00,2025-06-21 06:00,Planned maintenance,Planned
+DT-00212,W-010,2025-06-27 06:00,2025-06-29 03:00,Wellhead / flowline leak,Unplanned
+DT-00213,W-010,2025-09-05 14:00,2025-09-05 20:00,Planned maintenance,Planned
+DT-00214,W-010,2025-09-30 00:00,2025-10-01 03:00,Facility constraint,Unplanned
+DT-00215,W-010,2025-10-03 11:00,2025-10-04 00:00,Planned maintenance,Planned
+DT-00216,W-010,2025-10-10 01:00,2025-10-10 07:00,Planned maintenance,Planned
+DT-00217,W-010,2025-10-16 23:00,2025-10-17 12:00,Planned maintenance,Planned
+DT-00218,W-010,2025-11-13 10:00,2025-11-14 17:00,Pump / ESP failure,Unplanned
+DT-00219,W-010,2025-11-27 09:00,2025-11-27 22:00,Planned maintenance,Planned
+DT-00220,W-010,2025-11-30 17:00,2025-12-04 14:00,Pump / ESP failure,Unplanned
+DT-00221,W-010,2025-12-18 21:00,2025-12-19 07:00,Planned maintenance,Planned
+DT-00222,W-010,2026-01-08 20:00,2026-01-09 04:00,Facility constraint,Unplanned
+DT-00223,W-010,2026-01-13 09:00,2026-01-14 04:00,Facility constraint,Unplanned
+DT-00224,W-010,2026-02-11 09:00,2026-02-11 13:00,Planned maintenance,Planned
+DT-00225,W-010,2026-03-19 13:00,2026-03-20 23:00,Wellhead / flowline leak,Unplanned
+DT-00226,W-010,2026-03-20 20:00,2026-03-21 13:00,Facility constraint,Unplanned
+DT-00227,W-010,2026-03-26 00:00,2026-03-26 12:00,Facility constraint,Unplanned
+DT-00228,W-010,2026-04-10 02:00,2026-04-11 22:00,Pump / ESP failure,Unplanned
+DT-00229,W-010,2026-04-24 05:00,2026-04-25 18:00,Wellhead / flowline leak,Unplanned
+DT-00230,W-010,2026-04-28 20:00,2026-04-30 20:00,Pump / ESP failure,Unplanned
+DT-00231,W-010,2026-06-10 19:00,2026-06-11 08:00,Planned maintenance,Planned
+DT-00232,W-010,2026-08-18 04:00,2026-08-18 15:00,Facility constraint,Unplanned
+DT-00233,W-010,2026-08-30 02:00,2026-09-01 05:00,Pump / ESP failure,Unplanned
+DT-00234,W-010,2026-09-02 09:00,2026-09-02 16:00,Planned maintenance,Planned
+DT-00235,W-010,2026-09-06 10:00,2026-09-08 00:00,Wellhead / flowline leak,Unplanned
+DT-00236,W-010,2026-09-08 02:00,2026-09-09 10:00,Wellhead / flowline leak,Unplanned
+DT-00237,W-011,2026-03-18 20:00,2026-03-23 16:00,Workover,Planned
+DT-00238,W-011,2026-04-28 19:00,2026-05-02 04:00,Pump / ESP failure,Unplanned
+DT-00239,W-011,2026-06-16 18:00,2026-06-21 17:00,Workover,Planned
+DT-00240,W-011,2026-06-23 05:00,2026-06-23 17:00,Planned maintenance,Planned
+DT-00241,W-011,2026-07-06 23:00,2026-07-09 12:00,Pump / ESP failure,Unplanned
+DT-00242,W-011,2026-08-19 21:00,2026-08-24 02:00,Pump / ESP failure,Unplanned
+DT-00243,W-011,2026-08-21 12:00,2026-08-26 03:00,Workover,Planned
+DT-00244,W-011,2026-09-14 09:00,2026-09-14 23:00,Planned maintenance,Planned
+DT-00245,W-011,2026-10-12 13:00,2026-10-12 20:00,Planned maintenance,Planned
+DT-00246,W-011,2026-10-25 14:00,2026-10-26 02:00,Planned maintenance,Planned
+DT-00247,W-011,2026-10-31 14:00,2026-11-04 10:00,Pump / ESP failure,Unplanned
+DT-00248,W-012,2025-02-08 05:00,2025-02-09 01:00,Facility constraint,Unplanned
+DT-00249,W-012,2025-03-24 04:00,2025-03-24 09:00,Planned maintenance,Planned
+DT-00250,W-012,2025-04-05 16:00,2025-04-06 03:00,Planned maintenance,Planned
+DT-00251,W-012,2025-04-24 04:00,2025-04-28 19:00,Pump / ESP failure,Unplanned
+DT-00252,W-012,2025-04-27 23:00,2025-04-29 05:00,Facility constraint,Unplanned
+DT-00253,W-012,2025-05-16 12:00,2025-05-20 10:00,Pump / ESP failure,Unplanned
+DT-00254,W-012,2025-06-13 02:00,2025-06-13 08:00,Facility constraint,Unplanned
+DT-00255,W-012,2025-11-05 06:00,2025-11-05 15:00,Facility constraint,Unplanned
+DT-00256,W-012,2025-11-09 05:00,2025-11-10 07:00,Wellhead / flowline leak,Unplanned
+DT-00257,W-012,2025-12-10 02:00,2025-12-10 15:00,Facility constraint,Unplanned
+DT-00258,W-012,2026-01-26 05:00,2026-01-26 13:00,Planned maintenance,Planned
+DT-00259,W-012,2026-02-06 04:00,2026-02-06 15:00,Planned maintenance,Planned
+DT-00260,W-012,2026-02-14 06:00,2026-02-15 20:00,Wellhead / flowline leak,Unplanned
+DT-00261,W-012,2026-03-10 10:00,2026-03-10 17:00,Planned maintenance,Planned
+DT-00262,W-012,2026-03-23 05:00,2026-03-26 14:00,Pump / ESP failure,Unplanned
+DT-00263,W-012,2026-04-19 12:00,2026-04-19 21:00,Planned maintenance,Planned
+DT-00264,W-012,2026-04-24 16:00,2026-04-25 01:00,Facility constraint,Unplanned
+DT-00265,W-012,2026-04-26 17:00,2026-05-03 02:00,Workover,Planned
+DT-00266,W-012,2026-05-16 08:00,2026-05-16 17:00,Facility constraint,Unplanned
+DT-00267,W-012,2026-09-22 23:00,2026-09-23 09:00,Planned maintenance,Planned
+DT-00268,W-013,2025-01-09 04:00,2025-01-11 00:00,Wellhead / flowline leak,Unplanned
+DT-00269,W-013,2025-01-21 07:00,2025-01-22 03:00,Facility constraint,Unplanned
+DT-00270,W-013,2025-01-27 09:00,2025-01-27 16:00,Facility constraint,Unplanned
+DT-00271,W-013,2025-03-13 18:00,2025-03-14 08:00,Planned maintenance,Planned
+DT-00272,W-013,2025-05-21 23:00,2025-05-22 07:00,Wellhead / flowline leak,Unplanned
+DT-00273,W-013,2025-05-22 20:00,2025-05-27 08:00,Pump / ESP failure,Unplanned
+DT-00274,W-013,2025-06-06 04:00,2025-06-06 08:00,Planned maintenance,Planned
+DT-00275,W-013,2025-06-24 00:00,2025-06-24 04:00,Planned maintenance,Planned
+DT-00276,W-013,2025-06-26 03:00,2025-06-26 11:00,Planned maintenance,Planned
+DT-00277,W-013,2025-07-16 18:00,2025-07-17 04:00,Planned maintenance,Planned
+DT-00278,W-013,2025-07-26 19:00,2025-07-29 23:00,Pump / ESP failure,Unplanned
+DT-00279,W-013,2025-09-10 07:00,2025-09-11 14:00,Pump / ESP failure,Unplanned
+DT-00280,W-013,2025-10-12 20:00,2025-10-13 01:00,Planned maintenance,Planned
+DT-00281,W-013,2025-10-17 12:00,2025-10-18 02:00,Facility constraint,Unplanned
+DT-00282,W-013,2025-11-30 20:00,2025-12-01 07:00,Wellhead / flowline leak,Unplanned
+DT-00283,W-013,2026-01-14 20:00,2026-01-16 18:00,Wellhead / flowline leak,Unplanned
+DT-00284,W-013,2026-02-06 23:00,2026-02-07 11:00,Planned maintenance,Planned
+DT-00285,W-013,2026-02-24 01:00,2026-02-25 07:00,Pump / ESP failure,Unplanned
+DT-00286,W-013,2026-02-26 07:00,2026-02-28 12:00,Pump / ESP failure,Unplanned
+DT-00287,W-013,2026-03-03 00:00,2026-03-03 14:00,Wellhead / flowline leak,Unplanned
+DT-00288,W-013,2026-03-28 04:00,2026-03-28 16:00,Facility constraint,Unplanned
+DT-00289,W-013,2026-04-11 16:00,2026-04-12 06:00,Planned maintenance,Planned
+DT-00290,W-013,2026-05-09 05:00,2026-05-09 18:00,Planned maintenance,Planned
+DT-00291,W-013,2026-05-28 01:00,2026-06-01 15:00,Pump / ESP failure,Unplanned
+DT-00292,W-013,2026-10-09 22:00,2026-10-10 19:00,Facility constraint,Unplanned
+DT-00293,W-013,2026-10-30 23:00,2026-10-31 09:00,Planned maintenance,Planned
+DT-00294,W-014,2025-01-04 07:00,2025-01-04 18:00,Facility constraint,Unplanned
+DT-00295,W-014,2025-06-01 01:00,2025-06-01 15:00,Planned maintenance,Planned
+DT-00296,W-014,2025-06-05 22:00,2025-06-06 22:00,Wellhead / flowline leak,Unplanned
+DT-00297,W-014,2025-06-07 13:00,2025-06-08 16:00,Facility constraint,Unplanned
+DT-00298,W-014,2025-07-08 09:00,2025-07-09 09:00,Wellhead / flowline leak,Unplanned
+DT-00299,W-014,2025-08-04 02:00,2025-08-04 23:00,Wellhead / flowline leak,Unplanned
+DT-00300,W-014,2025-09-29 07:00,2025-10-01 22:00,Pump / ESP failure,Unplanned
+DT-00301,W-014,2025-11-16 23:00,2025-11-19 01:00,Pump / ESP failure,Unplanned
+DT-00302,W-014,2026-01-20 10:00,2026-01-23 17:00,Pump / ESP failure,Unplanned
+DT-00303,W-014,2026-02-13 22:00,2026-02-14 12:00,Planned maintenance,Planned
+DT-00304,W-014,2026-05-28 15:00,2026-06-04 11:00,Workover,Planned
+DT-00305,W-014,2026-06-14 00:00,2026-06-14 04:00,Planned maintenance,Planned
+DT-00306,W-014,2026-06-29 09:00,2026-06-30 09:00,Facility constraint,Unplanned
+DT-00307,W-014,2026-08-09 02:00,2026-08-09 15:00,Planned maintenance,Planned
+DT-00308,W-014,2026-08-31 00:00,2026-09-01 10:00,Pump / ESP failure,Unplanned
+DT-00309,W-014,2026-09-04 11:00,2026-09-04 17:00,Planned maintenance,Planned
+DT-00310,W-015,2025-02-02 22:00,2025-02-03 04:00,Planned maintenance,Planned
+DT-00311,W-015,2025-03-01 23:00,2025-03-02 04:00,Planned maintenance,Planned
+DT-00312,W-015,2025-03-03 06:00,2025-03-04 13:00,Wellhead / flowline leak,Unplanned
+DT-00313,W-015,2025-04-17 02:00,2025-04-24 15:00,Workover,Planned
+DT-00314,W-015,2025-06-12 12:00,2025-06-13 16:00,Facility constraint,Unplanned
+DT-00315,W-015,2025-06-15 01:00,2025-06-15 06:00,Planned maintenance,Planned
+DT-00316,W-015,2025-06-16 02:00,2025-06-18 02:00,Wellhead / flowline leak,Unplanned
+DT-00317,W-015,2025-08-01 15:00,2025-08-02 06:00,Facility constraint,Unplanned
+DT-00318,W-015,2025-08-04 06:00,2025-08-04 20:00,Planned maintenance,Planned
+DT-00319,W-015,2025-08-14 00:00,2025-08-14 08:00,Planned maintenance,Planned
+DT-00320,W-015,2025-08-26 22:00,2025-08-27 09:00,Wellhead / flowline leak,Unplanned
+DT-00321,W-015,2025-10-03 16:00,2025-10-05 14:00,Wellhead / flowline leak,Unplanned
+DT-00322,W-015,2025-10-20 13:00,2025-10-20 17:00,Planned maintenance,Planned
+DT-00323,W-015,2025-10-21 11:00,2025-10-21 20:00,Facility constraint,Unplanned
+DT-00324,W-015,2025-11-07 06:00,2025-11-07 19:00,Planned maintenance,Planned
+DT-00325,W-015,2025-12-10 09:00,2025-12-12 05:00,Wellhead / flowline leak,Unplanned
+DT-00326,W-015,2025-12-15 09:00,2025-12-15 16:00,Planned maintenance,Planned
+DT-00327,W-015,2026-01-22 11:00,2026-01-22 19:00,Wellhead / flowline leak,Unplanned
+DT-00328,W-015,2026-02-09 15:00,2026-02-09 21:00,Planned maintenance,Planned
+DT-00329,W-015,2026-03-05 08:00,2026-03-07 00:00,Wellhead / flowline leak,Unplanned
+DT-00330,W-015,2026-03-28 22:00,2026-03-29 05:00,Planned maintenance,Planned
+DT-00331,W-015,2026-04-04 02:00,2026-04-04 16:00,Planned maintenance,Planned
+DT-00332,W-015,2026-04-22 03:00,2026-04-23 22:00,Wellhead / flowline leak,Unplanned
+DT-00333,W-015,2026-05-18 12:00,2026-05-18 22:00,Planned maintenance,Planned
+DT-00334,W-015,2026-07-15 20:00,2026-07-16 15:00,Facility constraint,Unplanned
+DT-00335,W-015,2026-07-16 13:00,2026-07-16 21:00,Planned maintenance,Planned
+DT-00336,W-015,2026-09-15 20:00,2026-09-16 06:00,Planned maintenance,Planned
+DT-00337,W-015,2026-09-22 19:00,2026-09-23 07:00,Planned maintenance,Planned
+DT-00338,W-015,2026-10-29 01:00,2026-10-30 03:00,Facility constraint,Unplanned
+DT-00339,W-016,2025-01-12 21:00,2025-01-13 08:00,Planned maintenance,Planned
+DT-00340,W-016,2025-02-02 14:00,2025-02-03 01:00,Planned maintenance,Planned
+DT-00341,W-016,2025-03-05 04:00,2025-03-05 11:00,Planned maintenance,Planned
+DT-00342,W-016,2025-03-16 07:00,2025-03-17 11:00,Facility constraint,Unplanned
+DT-00343,W-016,2025-04-04 04:00,2025-04-04 17:00,Planned maintenance,Planned
+DT-00344,W-016,2025-05-08 19:00,2025-05-09 23:00,Wellhead / flowline leak,Unplanned
+DT-00345,W-016,2025-05-28 06:00,2025-05-28 15:00,Planned maintenance,Planned
+DT-00346,W-016,2025-06-05 05:00,2025-06-05 19:00,Wellhead / flowline leak,Unplanned
+DT-00347,W-016,2025-08-30 04:00,2025-08-30 14:00,Planned maintenance,Planned
+DT-00348,W-016,2025-12-16 09:00,2025-12-24 06:00,Workover,Planned
+DT-00349,W-016,2025-12-31 03:00,2025-12-31 17:00,Planned maintenance,Planned
+DT-00350,W-016,2026-01-09 01:00,2026-01-10 14:00,Wellhead / flowline leak,Unplanned
+DT-00351,W-016,2026-01-10 22:00,2026-01-12 09:00,Wellhead / flowline leak,Unplanned
+DT-00352,W-016,2026-01-17 14:00,2026-01-18 16:00,Wellhead / flowline leak,Unplanned
+DT-00353,W-016,2026-01-18 00:00,2026-01-18 10:00,Planned maintenance,Planned
+DT-00354,W-016,2026-02-23 22:00,2026-02-25 09:00,Wellhead / flowline leak,Unplanned
+DT-00355,W-016,2026-03-18 07:00,2026-03-19 02:00,Facility constraint,Unplanned
+DT-00356,W-016,2026-04-16 20:00,2026-04-18 02:00,Facility constraint,Unplanned
+DT-00357,W-016,2026-05-18 20:00,2026-05-19 15:00,Wellhead / flowline leak,Unplanned
+DT-00358,W-016,2026-05-22 20:00,2026-05-23 04:00,Planned maintenance,Planned
+DT-00359,W-016,2026-06-23 12:00,2026-06-24 11:00,Wellhead / flowline leak,Unplanned
+DT-00360,W-016,2026-07-26 13:00,2026-07-27 03:00,Facility constraint,Unplanned
+DT-00361,W-016,2026-08-13 16:00,2026-08-14 02:00,Planned maintenance,Planned
+DT-00362,W-016,2026-09-12 20:00,2026-09-13 15:00,Wellhead / flowline leak,Unplanned
+DT-00363,W-016,2026-09-23 03:00,2026-09-23 14:00,Planned maintenance,Planned
+DT-00364,W-016,2026-09-25 22:00,2026-09-26 09:00,Facility constraint,Unplanned
+DT-00365,W-017,2026-04-26 18:00,2026-04-26 23:00,Planned maintenance,Planned
+DT-00366,W-017,2026-05-12 16:00,2026-05-16 10:00,Pump / ESP failure,Unplanned
+DT-00367,W-017,2026-05-13 16:00,2026-05-14 09:00,Facility constraint,Unplanned
+DT-00368,W-017,2026-05-24 06:00,2026-05-25 02:00,Facility constraint,Unplanned
+DT-00369,W-017,2026-09-22 03:00,2026-09-26 02:00,Pump / ESP failure,Unplanned
+DT-00370,W-017,2026-10-26 01:00,2026-10-26 15:00,Planned maintenance,Planned
+DT-00371,W-018,2025-01-14 13:00,2025-01-14 18:00,Planned maintenance,Planned
+DT-00372,W-018,2025-03-20 11:00,2025-03-21 14:00,Facility constraint,Unplanned
+DT-00373,W-018,2025-04-12 23:00,2025-04-13 07:00,Planned maintenance,Planned
+DT-00374,W-018,2025-04-26 12:00,2025-04-27 10:00,Wellhead / flowline leak,Unplanned
+DT-00375,W-018,2025-05-13 20:00,2025-05-14 01:00,Planned maintenance,Planned
+DT-00376,W-018,2025-05-19 07:00,2025-05-20 12:00,Facility constraint,Unplanned
+DT-00377,W-018,2025-07-02 20:00,2025-07-03 10:00,Planned maintenance,Planned
+DT-00378,W-018,2025-08-18 14:00,2025-08-24 18:00,Workover,Planned
+DT-00379,W-018,2026-01-10 04:00,2026-01-17 15:00,Workover,Planned
+DT-00380,W-018,2026-02-19 08:00,2026-02-19 15:00,Planned maintenance,Planned
+DT-00381,W-018,2026-03-23 21:00,2026-03-24 16:00,Facility constraint,Unplanned
+DT-00382,W-018,2026-03-29 11:00,2026-03-29 19:00,Planned maintenance,Planned
+DT-00383,W-018,2026-04-06 15:00,2026-04-07 02:00,Planned maintenance,Planned
+DT-00384,W-018,2026-04-21 11:00,2026-04-22 14:00,Facility constraint,Unplanned
+DT-00385,W-018,2026-04-26 01:00,2026-04-26 11:00,Planned maintenance,Planned
+DT-00386,W-018,2026-04-29 04:00,2026-04-29 20:00,Facility constraint,Unplanned
+DT-00387,W-018,2026-05-19 00:00,2026-05-19 13:00,Planned maintenance,Planned
+DT-00388,W-018,2026-06-16 20:00,2026-06-17 01:00,Planned maintenance,Planned
+DT-00389,W-018,2026-06-26 04:00,2026-06-27 04:00,Facility constraint,Unplanned
+DT-00390,W-018,2026-08-16 11:00,2026-08-16 22:00,Planned maintenance,Planned
+DT-00391,W-018,2026-09-25 17:00,2026-09-26 03:00,Planned maintenance,Planned
+DT-00392,W-018,2026-09-30 02:00,2026-10-02 00:00,Wellhead / flowline leak,Unplanned
+DT-00393,W-018,2026-10-29 09:00,2026-10-31 09:00,Wellhead / flowline leak,Unplanned
+DT-00394,W-001,2025-08-07 21:00,2025-08-08 11:00,Weather,Unplanned
+DT-00395,W-002,2025-08-07 21:00,2025-08-08 11:00,Weather,Unplanned
+DT-00396,W-003,2025-08-07 21:00,2025-08-08 11:00,Weather,Unplanned
+DT-00397,W-004,2025-08-07 21:00,2025-08-08 11:00,Weather,Unplanned
+DT-00398,W-006,2025-08-07 21:00,2025-08-08 11:00,Weather,Unplanned
+DT-00399,W-001,2025-04-30 13:00,2025-05-01 04:00,Weather,Unplanned
+DT-00400,W-002,2025-04-30 13:00,2025-05-01 04:00,Weather,Unplanned
+DT-00401,W-003,2025-04-30 13:00,2025-05-01 04:00,Weather,Unplanned
+DT-00402,W-004,2025-04-30 13:00,2025-05-01 04:00,Weather,Unplanned
+DT-00403,W-006,2025-04-30 13:00,2025-05-01 04:00,Weather,Unplanned
+DT-00404,W-001,2025-08-28 17:00,2025-08-29 20:00,Weather,Unplanned
+DT-00405,W-002,2025-08-28 17:00,2025-08-29 20:00,Weather,Unplanned
+DT-00406,W-003,2025-08-28 17:00,2025-08-29 20:00,Weather,Unplanned
+DT-00407,W-004,2025-08-28 17:00,2025-08-29 20:00,Weather,Unplanned
+DT-00408,W-006,2025-08-28 17:00,2025-08-29 20:00,Weather,Unplanned
+DT-00409,W-001,2025-03-01 22:00,2025-03-02 08:00,Power outage,Unplanned
+DT-00410,W-002,2025-03-01 22:00,2025-03-02 08:00,Power outage,Unplanned
+DT-00411,W-003,2025-03-01 22:00,2025-03-02 08:00,Power outage,Unplanned
+DT-00412,W-004,2025-03-01 22:00,2025-03-02 08:00,Power outage,Unplanned
+DT-00413,W-006,2025-03-01 22:00,2025-03-02 08:00,Power outage,Unplanned
+DT-00414,W-001,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00415,W-002,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00416,W-003,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00417,W-004,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00418,W-005,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00419,W-006,2026-05-19 17:00,2026-05-19 23:00,Power outage,Unplanned
+DT-00420,W-001,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00421,W-002,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00422,W-003,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00423,W-004,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00424,W-005,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00425,W-006,2026-09-06 10:00,2026-09-07 00:00,Power outage,Unplanned
+DT-00426,W-001,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00427,W-002,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00428,W-003,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00429,W-004,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00430,W-005,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00431,W-006,2026-04-25 21:00,2026-04-27 03:00,Weather,Unplanned
+DT-00432,W-001,2025-10-31 13:00,2025-11-01 12:00,Weather,Unplanned
+DT-00433,W-002,2025-10-31 13:00,2025-11-01 12:00,Weather,Unplanned
+DT-00434,W-003,2025-10-31 13:00,2025-11-01 12:00,Weather,Unplanned
+DT-00435,W-004,2025-10-31 13:00,2025-11-01 12:00,Weather,Unplanned
+DT-00436,W-006,2025-10-31 13:00,2025-11-01 12:00,Weather,Unplanned
+DT-00437,W-001,2025-03-19 20:00,2025-03-21 04:00,Weather,Unplanned
+DT-00438,W-002,2025-03-19 20:00,2025-03-21 04:00,Weather,Unplanned
+DT-00439,W-003,2025-03-19 20:00,2025-03-21 04:00,Weather,Unplanned
+DT-00440,W-004,2025-03-19 20:00,2025-03-21 04:00,Weather,Unplanned
+DT-00441,W-006,2025-03-19 20:00,2025-03-21 04:00,Weather,Unplanned
+DT-00442,W-007,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00443,W-008,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00444,W-009,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00445,W-010,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00446,W-011,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00447,W-012,2026-10-25 21:00,2026-10-26 00:00,Power outage,Unplanned
+DT-00448,W-007,2025-12-05 15:00,2025-12-06 19:00,Weather,Unplanned
+DT-00449,W-008,2025-12-05 15:00,2025-12-06 19:00,Weather,Unplanned
+DT-00450,W-009,2025-12-05 15:00,2025-12-06 19:00,Weather,Unplanned
+DT-00451,W-010,2025-12-05 15:00,2025-12-06 19:00,Weather,Unplanned
+DT-00452,W-012,2025-12-05 15:00,2025-12-06 19:00,Weather,Unplanned
+DT-00453,W-007,2025-05-28 20:00,2025-05-29 14:00,Weather,Unplanned
+DT-00454,W-008,2025-05-28 20:00,2025-05-29 14:00,Weather,Unplanned
+DT-00455,W-009,2025-05-28 20:00,2025-05-29 14:00,Weather,Unplanned
+DT-00456,W-010,2025-05-28 20:00,2025-05-29 14:00,Weather,Unplanned
+DT-00457,W-012,2025-05-28 20:00,2025-05-29 14:00,Weather,Unplanned
+DT-00458,W-007,2025-05-10 10:00,2025-05-11 01:00,Weather,Unplanned
+DT-00459,W-008,2025-05-10 10:00,2025-05-11 01:00,Weather,Unplanned
+DT-00460,W-009,2025-05-10 10:00,2025-05-11 01:00,Weather,Unplanned
+DT-00461,W-010,2025-05-10 10:00,2025-05-11 01:00,Weather,Unplanned
+DT-00462,W-012,2025-05-10 10:00,2025-05-11 01:00,Weather,Unplanned
+DT-00463,W-007,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00464,W-008,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00465,W-009,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00466,W-010,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00467,W-011,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00468,W-012,2026-05-01 09:00,2026-05-01 20:00,Power outage,Unplanned
+DT-00469,W-007,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00470,W-008,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00471,W-009,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00472,W-010,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00473,W-011,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00474,W-012,2026-03-22 17:00,2026-03-23 18:00,Weather,Unplanned
+DT-00475,W-007,2025-02-23 15:00,2025-02-24 12:00,Weather,Unplanned
+DT-00476,W-008,2025-02-23 15:00,2025-02-24 12:00,Weather,Unplanned
+DT-00477,W-009,2025-02-23 15:00,2025-02-24 12:00,Weather,Unplanned
+DT-00478,W-010,2025-02-23 15:00,2025-02-24 12:00,Weather,Unplanned
+DT-00479,W-012,2025-02-23 15:00,2025-02-24 12:00,Weather,Unplanned
+DT-00480,W-007,2026-02-18 16:00,2026-02-19 20:00,Weather,Unplanned
+DT-00481,W-008,2026-02-18 16:00,2026-02-19 20:00,Weather,Unplanned
+DT-00482,W-009,2026-02-18 16:00,2026-02-19 20:00,Weather,Unplanned
+DT-00483,W-010,2026-02-18 16:00,2026-02-19 20:00,Weather,Unplanned
+DT-00484,W-012,2026-02-18 16:00,2026-02-19 20:00,Weather,Unplanned
+DT-00485,W-007,2025-12-20 03:00,2025-12-21 11:00,Weather,Unplanned
+DT-00486,W-008,2025-12-20 03:00,2025-12-21 11:00,Weather,Unplanned
+DT-00487,W-009,2025-12-20 03:00,2025-12-21 11:00,Weather,Unplanned
+DT-00488,W-010,2025-12-20 03:00,2025-12-21 11:00,Weather,Unplanned
+DT-00489,W-012,2025-12-20 03:00,2025-12-21 11:00,Weather,Unplanned
+DT-00490,W-013,2025-12-05 04:00,2025-12-06 02:00,Weather,Unplanned
+DT-00491,W-014,2025-12-05 04:00,2025-12-06 02:00,Weather,Unplanned
+DT-00492,W-015,2025-12-05 04:00,2025-12-06 02:00,Weather,Unplanned
+DT-00493,W-016,2025-12-05 04:00,2025-12-06 02:00,Weather,Unplanned
+DT-00494,W-018,2025-12-05 04:00,2025-12-06 02:00,Weather,Unplanned
+DT-00495,W-013,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00496,W-014,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00497,W-015,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00498,W-016,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00499,W-017,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00500,W-018,2026-08-24 12:00,2026-08-25 01:00,Power outage,Unplanned
+DT-00501,W-013,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00502,W-014,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00503,W-015,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00504,W-016,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00505,W-017,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00506,W-018,2026-07-22 12:00,2026-07-22 21:00,Power outage,Unplanned
+DT-00507,W-013,2025-11-04 06:00,2025-11-04 10:00,Power outage,Unplanned
+DT-00508,W-014,2025-11-04 06:00,2025-11-04 10:00,Power outage,Unplanned
+DT-00509,W-015,2025-11-04 06:00,2025-11-04 10:00,Power outage,Unplanned
+DT-00510,W-016,2025-11-04 06:00,2025-11-04 10:00,Power outage,Unplanned
+DT-00511,W-018,2025-11-04 06:00,2025-11-04 10:00,Power outage,Unplanned
+DT-00512,W-013,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00513,W-014,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00514,W-015,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00515,W-016,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00516,W-017,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00517,W-018,2026-05-02 16:00,2026-05-03 04:00,Power outage,Unplanned
+DT-00518,W-013,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00519,W-014,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00520,W-015,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00521,W-016,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00522,W-017,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00523,W-018,2026-07-11 20:00,2026-07-12 08:00,Power outage,Unplanned
+DT-00524,W-013,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00525,W-014,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00526,W-015,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00527,W-016,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00528,W-017,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00529,W-018,2026-09-03 01:00,2026-09-03 14:00,Power outage,Unplanned
+DT-00530,W-013,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00531,W-014,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00532,W-015,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00533,W-016,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00534,W-017,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00535,W-018,2026-10-11 03:00,2026-10-11 13:00,Power outage,Unplanned
+DT-00536,W-013,2025-07-05 20:00,2025-07-05 23:00,Power outage,Unplanned
+DT-00537,W-014,2025-07-05 20:00,2025-07-05 23:00,Power outage,Unplanned
+DT-00538,W-015,2025-07-05 20:00,2025-07-05 23:00,Power outage,Unplanned
+DT-00539,W-016,2025-07-05 20:00,2025-07-05 23:00,Power outage,Unplanned
+DT-00540,W-018,2025-07-05 20:00,2025-07-05 23:00,Power outage,Unplanned

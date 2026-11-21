@@ -1,0 +1,52 @@
+relationship be094873-0510-4f86-8ffa-3337d677d9d0
+	fromColumn: Production.WellID
+	toColumn: Wells.WellID
+
+relationship 9008354b-cb09-48d3-b068-89029423d82f
+	fromColumn: Production.ProdDate
+	toColumn: Date.Date
+
+relationship 059f43f1-2a23-4cfb-b442-a1a662848656
+	fromColumn: Downtime.WellID
+	toColumn: Wells.WellID
+
+relationship ab5def33-c446-44d0-8407-8923dd197f66
+	fromColumn: Downtime.StartDate
+	toColumn: Date.Date
+
+relationship 40618f24-4dc1-4d73-a435-ecb2c1f9c04a
+	fromColumn: 'SCADA Hourly'.WellID
+	toColumn: Wells.WellID
+
+relationship c70632f5-312c-4536-addd-0e28ef586fde
+	fromColumn: 'SCADA Hourly'.ReadingDate
+	toColumn: Date.Date
+
+relationship dadb6626-efb6-45fe-a349-9a6eae859f87
+	fromColumn: Wells.Lease
+	toColumn: Leases.Lease
+
+relationship 02380f0f-de61-4b3d-8833-83ac186f3e51
+	fromColumn: LOE.Lease
+	toColumn: Leases.Lease
+
+relationship 379234b0-84a8-463a-b8f2-c689bdd6b6fd
+	fromColumn: LOE.MonthStart
+	toColumn: Date.Date
+
+relationship af2f7c02-638f-4bf0-84d0-06dac208ffe9
+	fromColumn: 'Sales Recon'.Lease
+	toColumn: Leases.Lease
+
+relationship 37bc0c14-11fe-4ee0-8256-44ecf25064f8
+	fromColumn: 'Sales Recon'.MonthStart
+	toColumn: Date.Date
+
+relationship b0298806-5c8c-4bf2-a859-d1f02b9d93db
+	fromColumn: 'DQ Issues'.Lease
+	toColumn: Leases.Lease
+
+relationship 262aa529-c12a-44b5-9b7e-ed073d5189b5
+	fromColumn: 'DQ Issues'.'Issue Date'
+	toColumn: Date.Date
+

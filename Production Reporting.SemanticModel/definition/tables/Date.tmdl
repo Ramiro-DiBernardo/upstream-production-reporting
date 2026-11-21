@@ -1,0 +1,70 @@
+/// Calendar table (marked as date table), from the first day to the last day with production.
+table Date
+	lineageTag: 6686d161-901c-410c-8f7d-0bda89a3d6a9
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-mm-dd
+		lineageTag: 57ce1a42-187e-4c0d-8073-875527aec7f0
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+	column Year
+		formatString: 0
+		lineageTag: fb951c14-6388-4a0f-9150-1b859e1511b1
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year]
+
+	column Quarter
+		lineageTag: 7787342d-2b3e-4334-99dd-92ff3bc9aaad
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+
+	column 'Month Number'
+		isHidden
+		formatString: 0
+		lineageTag: bcaf9510-44ce-4664-827e-8499e5786532
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Number]
+
+	column Month
+		lineageTag: b1599512-edd3-486d-b8b0-163efdcea82d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month]
+		sortByColumn: 'Month Number'
+
+	column 'Year Month'
+		lineageTag: a005cb9f-e72b-4ec1-bf3a-863e88ec1684
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Year Month]
+
+	column 'Month Start'
+		formatString: yyyy-mm-dd
+		lineageTag: 285fdf1a-7757-4984-8562-299488a9fb2d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month Start]
+
+	partition Date = calculated
+		mode: import
+		source =
+				VAR _Base = CALENDAR(DATE(2025, 1, 1), MAX(Production[ProdDate]))
+				RETURN
+				ADDCOLUMNS(
+				    _Base,
+				    "Year", YEAR([Date]),
+				    "Quarter", "Q" & QUARTER([Date]),
+				    "Month Number", MONTH([Date]),
+				    "Month", FORMAT([Date], "mmm"),
+				    "Year Month", FORMAT([Date], "yyyy-mm"),
+				    "Month Start", DATE(YEAR([Date]), MONTH([Date]), 1)
+				)
+

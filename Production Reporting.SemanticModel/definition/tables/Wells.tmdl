@@ -1,0 +1,65 @@
+/// Well master data: one row per well.
+table Wells
+	lineageTag: b7564fcc-ff5c-4e63-8580-cdf0a152cfaa
+
+	column WellID
+		dataType: string
+		lineageTag: e4bf3962-6077-403f-a316-9b525cac22d5
+		summarizeBy: none
+		sourceColumn: WellID
+
+	column Well
+		dataType: string
+		lineageTag: 69c0418c-4f77-485d-98c1-9dbde2a08168
+		summarizeBy: none
+		sourceColumn: Well
+
+	column Field
+		dataType: string
+		isHidden
+		lineageTag: 2c47419e-34df-4dad-b8df-392ea1d6470c
+		summarizeBy: none
+		sourceColumn: Field
+
+	column Lease
+		dataType: string
+		isHidden
+		lineageTag: 0d5796f4-2269-41f1-87a4-6952f16fe78d
+		summarizeBy: none
+		sourceColumn: Lease
+
+	column 'Lift Type'
+		dataType: string
+		lineageTag: ded2b842-7b62-4b6f-ab18-b4b3fd5e9b40
+		summarizeBy: none
+		sourceColumn: Lift Type
+
+	column 'First Production'
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 98a58e25-48e4-44fc-9e1e-abe3524cb0d5
+		summarizeBy: none
+		sourceColumn: First Production
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Vintage
+		dataType: string
+		lineageTag: 3ef9234a-5914-47dc-8e66-3cc8992c798c
+		summarizeBy: none
+		sourceColumn: Vintage
+
+	partition Wells = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_well.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, Table.ColumnNames(Promoted)),
+				    Renamed = Table.RenameColumns(Blanks, {{"well_id", "WellID"}, {"well_name", "Well"}, {"field", "Field"}, {"lease", "Lease"}, {"lift_type", "Lift Type"}, {"first_prod_date", "First Production"}, {"well_vintage", "Vintage"}}),
+				    Typed = Table.TransformColumnTypes(Renamed, {{"WellID", type text}, {"Well", type text}, {"Field", type text}, {"Lease", type text}, {"Lift Type", type text}, {"First Production", type date}, {"Vintage", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
+

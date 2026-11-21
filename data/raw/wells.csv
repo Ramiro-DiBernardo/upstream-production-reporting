@@ -1,0 +1,19 @@
+WellID,WellName,Field,Lease,LiftType,FirstProdDate,Qi_bopd,Di_annual,b_factor
+W-001,Mesa 14-1H,Mesa Field,Mesa North,Rod pump,2023-11-07,753,0.719,1.13
+W-002,Mesa 23-2H,Mesa Field,Mesa North,Rod pump,2024-07-07,455,0.796,1.02
+W-003,Mesa 30-3H,Mesa Field,Mesa North,Gas lift,2024-02-18,718,1.079,1.03
+W-004,Mesa 23-1H,Mesa Field,Mesa South,ESP,2023-12-12,696,0.747,0.92
+W-005,Mesa 28-2H,Mesa Field,Mesa South,Gas lift,2026-02-22,516,0.849,1.02
+W-006,Mesa 34-3H,Mesa Field,Mesa South,Rod pump,2023-07-24,658,0.934,0.98
+W-007,Red 34-1H,Red Creek Field,Red Creek A,ESP,2022-10-19,461,0.93,1.01
+W-008,Red 26-2H,Red Creek Field,Red Creek A,Rod pump,2024-06-05,504,1.003,0.86
+W-009,Red 12-3H,Red Creek Field,Red Creek A,Gas lift,2022-11-19,713,1.016,1.13
+W-010,Red 36-1H,Red Creek Field,Red Creek B,ESP,2024-07-25,558,0.89,1.07
+W-011,Red 31-2H,Red Creek Field,Red Creek B,Rod pump,2026-02-20,565,0.987,1.15
+W-012,Red 11-3H,Red Creek Field,Red Creek B,ESP,2023-05-17,813,0.815,1.1
+W-013,Sandhill 12-1H,Sandhill Field,Sandhill East,ESP,2023-05-14,649,0.861,0.91
+W-014,Sandhill 31-2H,Sandhill Field,Sandhill East,Rod pump,2023-10-02,538,0.76,0.87
+W-015,Sandhill 36-3H,Sandhill Field,Sandhill East,Gas lift,2023-05-26,513,0.805,0.8
+W-016,Sandhill 37-1H,Sandhill Field,Sandhill West,Gas lift,2022-10-27,736,0.962,1.1
+W-017,Sandhill 22-2H,Sandhill Field,Sandhill West,Rod pump,2026-02-11,624,0.858,0.99
+W-018,Sandhill 20-3H,Sandhill Field,Sandhill West,Gas lift,2024-06-13,446,0.741,1.03
